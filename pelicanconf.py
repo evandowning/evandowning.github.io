@@ -17,6 +17,8 @@ PAGE_PATHS = ['page']
 ARTICLE_PATHS = ['blog']
 STATIC_PATHS = ['page','blog','image','file','favicon.ico']
 
+EXTRA_PATH_METADATA = {'file/CNAME': {'path': 'CNAME'}, }
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

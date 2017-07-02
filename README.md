@@ -4,6 +4,7 @@ My website
 ## Modifying
   - Download repo
     `$ git clone https://github.com/evandowning/evandowning.github.io.git`
+    `$ git checkout source`
 
   - Install requirements
     `$ sudo pip install pelican Markdown ghp-import`
@@ -22,4 +23,4 @@ My website
   - Make output for Github
     `$ make github`
 
-  - Commit changes and push
+  - Commit changes and push to `source` branch

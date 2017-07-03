@@ -17,7 +17,7 @@
 &lt;p&gt;I also want the chain's length (chain-size from 'Features' above) to be 1.&lt;/p&gt;
 &lt;p&gt;So the following chain would be created with its associated next tokens:&lt;/p&gt;
 &lt;p&gt;chain of tokens: list of tokens coming after the chain in the text&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&amp;quot;I&amp;quot;: [&amp;quot;like&amp;quot;]
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;quot;I&amp;quot;: [&amp;quot;like&amp;quot;]
 &amp;quot;like&amp;quot;: [&amp;quot;bananas&amp;quot;]
 &amp;quot;bananas&amp;quot;: [&amp;quot;and&amp;quot;]
 &amp;quot;and&amp;quot;: [&amp;quot;apples&amp;quot;, &amp;quot;oranges.&amp;quot;]

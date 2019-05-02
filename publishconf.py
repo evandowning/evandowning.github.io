@@ -16,9 +16,6 @@ RELATIVE_URLS = True
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
-
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing

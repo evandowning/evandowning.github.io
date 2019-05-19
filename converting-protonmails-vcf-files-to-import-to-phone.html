@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Converting Protonmail's VCF files to import to phone</title>
+        <link rel="stylesheet" href="./theme/css/main.css" />
+        <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Downing RSS Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="./">Evan Downing </a></h1>
+                <nav><ul>
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/file/Downing_CV.pdf">CV</a></li>
+                    <li><a href="/pages/projects.html">Projects</a></li>
+                    <li><a href="/file/pgp_public.asc">PGP</a></li>
+                    <li><a href="https://github.com/evandowning">Github</a></li>
+                    <li><a href="https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en">Google Scholar</a></li>
+                </ul>
+                </nav>
+<div id="submenu">
+                    <ul>
+                            <li class="active"><a href="./category/coding-fun.html">coding-fun</a></li>
+                    </ul>
+                <div>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./converting-protonmails-vcf-files-to-import-to-phone.html" rel="bookmark"
+           title="Permalink to Converting Protonmail's VCF files to import to phone">Converting Protonmail's VCF files to import to phone</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <span>Sun 19 May 2019</span>
+	        <span>| in <a href="./category/coding-fun.html">coding-fun</a></span>
+
+</footer><!-- /.post-info -->      <h1>Introduction</h1>
+<p><a href="https://protonmail.com">Protonmail</a> captured my interest a few years ago as privacy-focused
+alternative to <a href="http://gmail.com">Gmail</a>.</p>
+<p>But one of the problems I faced was my dependence on Google's <a href="https://contacts.google.com">Contacts</a>
+service which kept all of my contacts for me stored on my Android device.
+I wanted to move away from this as well. But I also have an animosity towards
+having email on my phone.</p>
+<p>So without installing Protonmail on my phone, how could I take my contacts stored on Protonmail
+and put them on my phone?</p>
+<p>Well one obvious way was to export Protonmail's contacts to a <a href="https://en.wikipedia.org/wiki/VCard">VCF</a> file
+and import that onto my phone. Unfortunately, Protonmail's VCF file was using version 4.0,
+while my phone (Android version 8) was still stuck on VCF version 2.1. And I wasn't the
+only one with issues with converting VCF file format versions:</p>
+<ul>
+<li><a href="https://alessandrorossini.org/the-sad-story-of-the-vcard-format-and-its-lack-of-interoperability/">https://alessandrorossini.org/the-sad-story-of-the-vcard-format-and-its-lack-of-interoperability/</a></li>
+<li><a href="https://android.stackexchange.com/questions/106888/what-vcard-formats-versions-and-encodings-are-supported-for-import">https://android.stackexchange.com/questions/106888/what-vcard-formats-versions-and-encodings-are-supported-for-import</a></li>
+<li><a href="https://github.com/nextcloud/contacts/issues/492">https://github.com/nextcloud/contacts/issues/492</a></li>
+<li><a href="https://www.tenorshare.com/icloud-tips/cannot-import-vcf-vcards-into-icloud-how-to-fix.html">https://www.tenorshare.com/icloud-tips/cannot-import-vcf-vcards-into-icloud-how-to-fix.html</a></li>
+</ul>
+<p>But all of the tools I found went from version 2.1 to something newer. I couldn't find any converters
+from a newer version down to an older version.</p>
+<p>Protonmail (at the time of this post) uses version 4.0.
+So I wrote a converter from version 4.0 (Protonmail) to version 2.1 (what Android still uses).</p>
+<p>You can find my converter here: <a href="https://github.com/evandowning/vcf-converter">https://github.com/evandowning/vcf-converter</a></p>
+<p>So everytime my Protonmail contacts get updated, I export them to a VCF file,
+convert it to version 2.1, and transfer it to my Android device to be imported locally.</p>
+<p>Enjoy.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate">rss feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139439777-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139439777-1');
+</script>
+</body>
+</html>

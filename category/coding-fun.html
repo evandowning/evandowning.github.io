@@ -49,7 +49,7 @@ but couldn't figure out why our methods of creating our graphs were so slow.</p>
 <p>Unfortunately I couldn't find anyone online who had done benchmarking on creating various sizes
 of graphs using the different ways of creating a Neo4j graph (which I will explain below). So I thought
 this was a great opportunity to write some code to test the various ways of creating Neo4j graphs
-and share my results with anyone interested in answer the same question.</p>
+and share my results with anyone interested in answering the same question.</p>
 <h1>Creating Neo4j Graphs the "Normal" Way</h1>
 <p>When you first read Neo4j tutorials on creating graphs, they probably mention
 something about <code>MERGE</code> for creating Nodes and <code>CREATE</code> for creating Edges.
@@ -83,7 +83,8 @@ and 100s of millions of edges (which was way too slow for our needs). Our
 particular application required streaming graph data to our server where we
 would need to create these large graphs in realtime (and 10 days was barely
 realtime). Also we noticed that creating the graphs slowed over time as the
-graph size grew, so our guestimate of 10 days was actually much larger in reality.</p>
+graph size grew, so our guestimate of 10 days was actually much smaller compared
+to what we experienced in reality.</p>
 <h1>Creating Neo4j Graphs the Efficient Way</h1>
 <p>After scouring the Internet for a day or so, we happened upon two
 query methods used to create graphs quickly: <code>UNWIND</code> and <code>LOADCSV</code>.</p>
@@ -119,6 +120,27 @@ timing bar charts of our results:</p>
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../converting-protonmails-vcf-files-to-import-to-phone.html" rel="bookmark"
+                           title="Permalink to Converting Protonmail's VCF files to import to phone">Converting Protonmail's VCF files to import to phone</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>Sun 19 May 2019</span>
+	        <span>| in <a href="../category/coding-fun.html">coding-fun</a></span>
+
+</footer><!-- /.post-info -->                <h1>Introduction</h1>
+<p><a href="https://protonmail.com">Protonmail</a> captured my interest a few years ago as privacy-focused
+alternative to <a href="http://gmail.com">Gmail</a>.</p>
+<p>But one of the problems I faced was my dependence on Google's <a href="https://contacts.google.com">Contacts</a>
+service which kept all of my contacts for me stored on my Android device.
+I wanted to move away from this as well …</p>
+                <a class="readmore" href="../converting-protonmails-vcf-files-to-import-to-phone.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>

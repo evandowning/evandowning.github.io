@@ -39,7 +39,6 @@ MENUITEMS = (
     ('About', '/pages/about.html'),
     ('CV', '/file/Downing_CV.pdf'),
     ('Projects', '/pages/projects.html'),
-    ('Classes', '/pages/classes.html'),
     ('PGP', '/file/pgp_public.asc'),
     ('Github', 'https://github.com/evandowning'),
     ('Google Scholar', 'https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en'),

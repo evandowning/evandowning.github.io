@@ -3,14 +3,16 @@ My website
 
 ## Modifying
   - Download repo
-
-    `$ git clone https://github.com/evandowning/evandowning.github.io.git`
-
-    `$ git checkout source`
+    ```
+    $ git clone https://github.com/evandowning/evandowning.github.io.git`
+    $ git checkout source
+    ```
 
   - Install requirements
-
-    `$ sudo pip install pelican Markdown ghp-import`
+    ```
+    $ mkvirtualenv website --python=/usr/bin/python3
+    $ pip install pelican Markdown ghp-import
+    ```
 
   - Make modifications and test
     ```
@@ -24,7 +26,8 @@ My website
     ```
 
   - Make output for Github
-
-    `$ make github`
+    ```
+    $ make github
+    ```
 
   - Commit changes and push to `source` branch

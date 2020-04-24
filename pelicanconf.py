@@ -15,9 +15,12 @@ DEFAULT_LANG = u'en'
 PATH = 'content'
 PAGE_PATHS = ['page']
 ARTICLE_PATHS = ['blog']
-STATIC_PATHS = ['page','blog','image','file','favicon.ico']
+STATIC_PATHS = ['page','blog','image','file']
 
-EXTRA_PATH_METADATA = {'file/CNAME': {'path': 'CNAME'}, }
+EXTRA_PATH_METADATA = {
+    'file/CNAME': {'path': 'CNAME'},
+    'image/favicon.ico': {'path': 'favicon.ico'},
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

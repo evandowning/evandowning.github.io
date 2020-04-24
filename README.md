@@ -10,7 +10,7 @@ My website
 
   - Install requirements
     ```
-    $ mkvirtualenv website --python=/usr/bin/python3
+    $ mkvirtualenv website --python=python3
     $ pip install pelican Markdown ghp-import
     ```
 

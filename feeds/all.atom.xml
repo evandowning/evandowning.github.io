@@ -73,22 +73,22 @@ sizes of graphs affected the creation time. Below are various
 timing bar charts of our results:&lt;/p&gt;
 &lt;h2&gt;10 nodes, 10 edges&lt;/h2&gt;
 &lt;p align="center"&gt;
-  &lt;img src="/image/coding-fun/neo4j_fig/10x10.png"&gt;
+  &lt;img src="/images/coding-fun/neo4j_fig/10x10.png"&gt;
 &lt;/p&gt;
 
 &lt;h2&gt;1000 nodes, 1000 edges&lt;/h2&gt;
 &lt;p align="center"&gt;
-  &lt;img src="/image/coding-fun/neo4j_fig/1000x1000.png"&gt;
+  &lt;img src="/images/coding-fun/neo4j_fig/1000x1000.png"&gt;
 &lt;/p&gt;
 
 &lt;h2&gt;1000 nodes, 10 edges (sparse graph)&lt;/h2&gt;
 &lt;p align="center"&gt;
-  &lt;img src="/image/coding-fun/neo4j_fig/1000x10.png"&gt;
+  &lt;img src="/images/coding-fun/neo4j_fig/1000x10.png"&gt;
 &lt;/p&gt;
 
 &lt;h2&gt;10 nodes, 1000 edges (dense graph)&lt;/h2&gt;
 &lt;p align="center"&gt;
-  &lt;img src="/image/coding-fun/neo4j_fig/10x1000.png"&gt;
+  &lt;img src="/images/coding-fun/neo4j_fig/10x1000.png"&gt;
 &lt;/p&gt;
 
 &lt;h1&gt;Conclusion&lt;/h1&gt;

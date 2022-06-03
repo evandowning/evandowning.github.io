@@ -1,61 +1,208 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>Evan Downing - Authors</title>
-        <link rel="stylesheet" href="./theme/css/main.css" />
-        <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Downing RSS Feed" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="./">Evan Downing </a></h1>
-                <nav><ul>
-                    <li><a href="/pages/about.html">About</a></li>
-                    <li><a href="/file/Downing_CV.pdf">CV</a></li>
-                    <li><a href="/pages/projects.html">Projects</a></li>
-                    <li><a href="/file/pgp_public.asc">PGP</a></li>
-                    <li><a href="https://github.com/evandowning">Github</a></li>
-                    <li><a href="https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en">Google Scholar</a></li>
-                </ul>
-                </nav>
-<div id="submenu">
-                    <ul>
-                            <li><a href="./category/coding-fun.html">coding-fun</a></li>
-                    </ul>
-                <div>
-        </header><!-- /#banner -->
+    <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/stylesheet/style.min.css">
 
-<section id="content" class="body">
-    <h1>Authors on Evan Downing</h1>        <li><a href="./author/evan-downing.html">Evan Downing</a> (3)</li>
-</section>
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="https://www.evandowning.com/theme/stylesheet/dark-theme.min.css">
 
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate">rss feed</a></li>
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="https://www.evandowning.com/theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="https://www.evandowning.com/theme/pygments/monokai.min.css">
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
-        </footer><!-- /#contentinfo -->
+  <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/font-awesome/css/solid.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139439777-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link href="https://www.evandowning.com/static/custom.css" rel="stylesheet">
 
-  gtag('config', 'UA-139439777-1');
+    <link href="https://www.evandowning.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Evan Downing Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-139439777-1', 'auto');
+  ga('send', 'pageview');
 </script>
+<!-- End Google Analytics -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Microsoft EDGE -->
+    <meta name="msapplication-TileColor" content="#333333">
+
+    <meta name="author" content="Evan Downing" />
+    <meta name="description" content="" />
+<meta property="og:site_name" content="Evan Downing"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Evan Downing"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://www.evandowning.com"/>
+<meta property="og:image" content="/images/profile.png">
+
+  <title>Evan Downing &ndash; Authors</title>
+
+</head>
+<body >
+  <aside>
+    <div>
+      <a href="https://www.evandowning.com">
+        <img src="/images/profile.png" alt="Evan Downing" title="Evan Downing">
+      </a>
+
+      <h1>
+        <a href="https://www.evandowning.com">Evan Downing</a>
+      </h1>
+
+<p>Cybersecurity Researcher</p>
+
+      <nav>
+        <ul class="list">
+
+
+              <li>
+                <a target="_self"
+                   href="https://www.evandowning.com/pages/about.html">
+                  About
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://www.evandowning.com/pages/projects.html">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://www.evandowning.com/pages/things-i-use.html">
+                  Things I Use
+                </a>
+              </li>
+
+            <li>
+              <a target="_self" href="/extra/Downing_CV.pdf" >CV</a>
+            </li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-twitter" href="https://twitter.com/_evandowning" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/evandowning/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-google" href="https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en" target="_blank">
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-github" href="https://github.com/evandowning" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://www.evandowning.com">Home</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://www.evandowning.com/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="authors">Authors</h1>
+  </header>
+  <div>
+    <ul class="list">
+      <li><a href="https://www.evandowning.com/author/evan-downing.html">Evan Downing</a> (3)</li>
+    </ul>
+  </div>
+</article>
+
+    <footer>
+<p>
+  &copy; 2022  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License 4.0 International License</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://www.evandowning.com/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Evan Downing ",
+  "url" : "https://www.evandowning.com",
+  "image": "/images/profile.png",
+  "description": ""
+}
+</script>
+
+
 </body>
 </html>

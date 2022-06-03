@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Downing</title><link href="https://www.evandowning.com/" rel="alternate"></link><link href="https://www.evandowning.com/feeds/all.atom.xml" rel="self"></link><id>https://www.evandowning.com/</id><updated>2019-05-19T00:00:00-04:00</updated><subtitle>Cybersecurity Researcher</subtitle><entry><title>Benchmarking Neo4j</title><link href="https://www.evandowning.com/benchmarking-neo4j.html" rel="alternate"></link><published>2019-05-19T00:00:00-04:00</published><updated>2019-05-19T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-05-19:/benchmarking-neo4j.html</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://neo4j.com/"&gt;Neo4j&lt;/a&gt; is a graph database implementation. It's used for creating large
+graphs to efficiently create and query various relationships. For an explanation on the differences
+between graph databases and relational database (like &lt;a href="https://www.mysql.com/"&gt;MySQL&lt;/a&gt; and &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt;),
+see &lt;a href="https://neo4j.com/developer/graph-db-vs-rdbms/"&gt;https://neo4j.com/developer/graph-db-vs-rdbms/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I required Neo4j for one of my projects …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://neo4j.com/"&gt;Neo4j&lt;/a&gt; is a graph database implementation. It's used for creating large
+graphs to efficiently create and query various relationships. For an explanation on the differences
+between graph databases and relational database (like &lt;a href="https://www.mysql.com/"&gt;MySQL&lt;/a&gt; and &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt;),
+see &lt;a href="https://neo4j.com/developer/graph-db-vs-rdbms/"&gt;https://neo4j.com/developer/graph-db-vs-rdbms/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I required Neo4j for one of my projects and one of the issues we were running into was that it
+was taking a long time to create our massive graphs (10s of millions of nodes with 100s of millions
+of edges). We had read that Neo4j was completely capable of handling graphs of this size (and larger)
+but couldn't figure out why our methods of creating our graphs were so slow.&lt;/p&gt;
+&lt;p&gt;Unfortunately I couldn't find anyone online who had done benchmarking on creating various sizes
+of graphs using the different ways of creating a Neo4j graph (which I will explain below). So I thought
+this was a great opportunity to write some code to test the various ways of creating Neo4j graphs
+and share my results with anyone interested in answering the same question.&lt;/p&gt;
+&lt;h1&gt;Creating Neo4j Graphs the "Normal" Way&lt;/h1&gt;
+&lt;p&gt;When you first read Neo4j tutorials on creating graphs, they probably mention
+something about &lt;code&gt;MERGE&lt;/code&gt; for creating Nodes and &lt;code&gt;CREATE&lt;/code&gt; for creating Edges.
+&lt;code&gt;MERGE&lt;/code&gt; is helpful because it will simultaneously check and create a unique node
+if it does not exist. If &lt;code&gt;MERGE&lt;/code&gt; didn't exist, you would have to create some &lt;code&gt;MATCH&lt;/code&gt;
+condition to say "if this node doesn't exist yet, create it". In the graphs for my
+project, all of the nodes and edges had to be unique.&lt;/p&gt;
+&lt;p&gt;Our &lt;strong&gt;first&lt;/strong&gt; implementation just contained those simple queries: Create a node
+and create an edge. That ended up being very slow (taking 40 seconds to create a graph
+with 1000 nodes and 1000 edges). So the &lt;strong&gt;second&lt;/strong&gt; thing we tried
+was creating each node and edge in the same query (as opposed to creating each
+individual node and edge within individual queries). Another thing we added
+was creating all nodes and edges first and then creating the remaining unconnected
+nodes at the end. We also tried adding an &lt;code&gt;INDEX&lt;/code&gt; to each node as well.
+This implementation was faster than the first, but still too slow for our needs.
+Our test graph (1000 nodes and 1000 edges) took roughly 30 seconds to create.&lt;/p&gt;
+&lt;p&gt;Then we found a query called a &lt;code&gt;CONSTRAINT&lt;/code&gt; which allows the user to create some
+logical rule for the graph database to follow. For us, it was to only accept
+unique nodes and edges. But this &lt;strong&gt;third&lt;/strong&gt; implementation also wasn't very fast.
+Finally we tried getting rid of both &lt;code&gt;INDEX&lt;/code&gt; and &lt;code&gt;CONSTRAINT&lt;/code&gt; to see if that
+was bogging anything down, but to no avail. Our &lt;strong&gt;fourth&lt;/strong&gt; implementation had
+failed us.&lt;/p&gt;
+&lt;p&gt;We then created a &lt;strong&gt;batch&lt;/strong&gt; implementation where we would batch multiple queries
+into one (a similar technique used on relational databases). Unfortunately
+this ended up being slower than our first implementation. Needless to say we
+were frustrated, but knew there must be a solution that Neo4j provides us.&lt;/p&gt;
+&lt;h1&gt;Pause for Consideration&lt;/h1&gt;
+&lt;p&gt;These timings may sound fast to someone with sufficiently small graphs, but it would take
+us nearly 10 days to create a single graph with 10s of millions of nodes
+and 100s of millions of edges (which was way too slow for our needs). Our
+particular application required streaming graph data to our server where we
+would need to create these large graphs in realtime (and 10 days was barely
+realtime). Also we noticed that creating the graphs slowed over time as the
+graph size grew, so our guestimate of 10 days was actually much smaller compared
+to what we experienced in reality.&lt;/p&gt;
+&lt;h1&gt;Creating Neo4j Graphs the Efficient Way&lt;/h1&gt;
+&lt;p&gt;After scouring the Internet for a day or so, we happened upon two
+query methods used to create graphs quickly: &lt;code&gt;UNWIND&lt;/code&gt; and &lt;code&gt;LOADCSV&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;One can think of &lt;code&gt;UNWIND&lt;/code&gt; as the proper way to use batching in Neo4j
+(like we had tried to emulate above for batching for relational databases).
+Immediately we saw fantastic results. The time it took to create a graph
+decreased by an order of magnitude (our 1000 node 1000 edge graph took
+seconds). Unfortunately during our evaluation of our project, it still
+was slower than realtime after a day or so of running it with our streaming
+data. It eventually caught up, but after several days of letting it run
+after our streaming data stopped after 2 weeks.&lt;/p&gt;
+&lt;p&gt;Finally we found the best implementation. &lt;code&gt;LOADCSV&lt;/code&gt; is by far the
+fastest way to create large graphs. It had been touted as being able
+to create a 30 million node graph in minutes &lt;a href="https://neo4j.com/blog/import-10m-stack-overflow-questions/"&gt;https://neo4j.com/blog/import-10m-stack-overflow-questions/&lt;/a&gt;.
+When we implemented using it ourselves it decreased our graph creation
+time down to 0.17 seconds. Another order of magnitude difference!&lt;/p&gt;
+&lt;p&gt;But we were also curious in knowing how much different types and
+sizes of graphs affected the creation time. Below are various
+timing bar charts of our results:&lt;/p&gt;
+&lt;h2&gt;10 nodes, 10 edges&lt;/h2&gt;
+&lt;p align="center"&gt;
+  &lt;img src="/image/coding-fun/neo4j_fig/10x10.png"&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;1000 nodes, 1000 edges&lt;/h2&gt;
+&lt;p align="center"&gt;
+  &lt;img src="/image/coding-fun/neo4j_fig/1000x1000.png"&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;1000 nodes, 10 edges (sparse graph)&lt;/h2&gt;
+&lt;p align="center"&gt;
+  &lt;img src="/image/coding-fun/neo4j_fig/1000x10.png"&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;10 nodes, 1000 edges (dense graph)&lt;/h2&gt;
+&lt;p align="center"&gt;
+  &lt;img src="/image/coding-fun/neo4j_fig/10x1000.png"&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;If you're creating a large graph in Neo4j, use &lt;code&gt;LOADCSV&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can check out all of my source code used to perform my experiments to test for yourself:
+&lt;a href="https://github.com/evandowning/neo4j-benchmark"&gt;https://github.com/evandowning/neo4j-benchmark&lt;/a&gt;&lt;/p&gt;</content><category term="coding-fun"></category><category term="neo4j"></category></entry><entry><title>Converting Protonmail's VCF files to import to phone</title><link href="https://www.evandowning.com/converting-protonmails-vcf-files-to-import-to-phone.html" rel="alternate"></link><published>2019-05-19T00:00:00-04:00</published><updated>2019-05-19T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-05-19:/converting-protonmails-vcf-files-to-import-to-phone.html</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://protonmail.com"&gt;Protonmail&lt;/a&gt; captured my interest a few years ago as privacy-focused
+alternative to &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But one of the problems I faced was my dependence on Google's &lt;a href="https://contacts.google.com"&gt;Contacts&lt;/a&gt;
+service which kept all of my contacts for me stored on my Android device.
+I wanted to move away from this as well …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://protonmail.com"&gt;Protonmail&lt;/a&gt; captured my interest a few years ago as privacy-focused
+alternative to &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But one of the problems I faced was my dependence on Google's &lt;a href="https://contacts.google.com"&gt;Contacts&lt;/a&gt;
+service which kept all of my contacts for me stored on my Android device.
+I wanted to move away from this as well. But I also have an animosity towards
+having email on my phone.&lt;/p&gt;
+&lt;p&gt;So without installing Protonmail on my phone, how could I take my contacts stored on Protonmail
+and put them on my phone?&lt;/p&gt;
+&lt;p&gt;Well one obvious way was to export Protonmail's contacts to a &lt;a href="https://en.wikipedia.org/wiki/VCard"&gt;VCF&lt;/a&gt; file
+and import that onto my phone. Unfortunately, Protonmail's VCF file was using version 4.0,
+while my phone (Android version 8) was still stuck on VCF version 2.1. And I wasn't the
+only one with issues with converting VCF file format versions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://alessandrorossini.org/the-sad-story-of-the-vcard-format-and-its-lack-of-interoperability/"&gt;https://alessandrorossini.org/the-sad-story-of-the-vcard-format-and-its-lack-of-interoperability/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://android.stackexchange.com/questions/106888/what-vcard-formats-versions-and-encodings-are-supported-for-import"&gt;https://android.stackexchange.com/questions/106888/what-vcard-formats-versions-and-encodings-are-supported-for-import&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/contacts/issues/492"&gt;https://github.com/nextcloud/contacts/issues/492&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.tenorshare.com/icloud-tips/cannot-import-vcf-vcards-into-icloud-how-to-fix.html"&gt;https://www.tenorshare.com/icloud-tips/cannot-import-vcf-vcards-into-icloud-how-to-fix.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But all of the tools I found went from version 2.1 to something newer. I couldn't find any converters
+from a newer version down to an older version.&lt;/p&gt;
+&lt;p&gt;Protonmail (at the time of this post) uses version 4.0.
+So I wrote a converter from version 4.0 (Protonmail) to version 2.1 (what Android still uses).&lt;/p&gt;
+&lt;p&gt;You can find my converter here: &lt;a href="https://github.com/evandowning/vcf-converter"&gt;https://github.com/evandowning/vcf-converter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So everytime my Protonmail contacts get updated, I export them to a VCF file,
+convert it to version 2.1, and transfer it to my Android device to be imported locally.&lt;/p&gt;
+&lt;p&gt;Enjoy.&lt;/p&gt;</content><category term="coding-fun"></category><category term="protonmail"></category><category term="vcf"></category></entry><entry><title>Markov Text Generator</title><link href="https://www.evandowning.com/markov-text-generator.html" rel="alternate"></link><published>2016-01-16T00:00:00-05:00</published><updated>2016-01-16T00:00:00-05:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2016-01-16:/markov-text-generator.html</id><summary type="html">&lt;p&gt;For fun, I've recently created my own &lt;a href="https://en.wikipedia.org/wiki/Markov_chain"&gt;Markov&lt;/a&gt; text generator.&lt;/p&gt;
+&lt;h2&gt;Explanation&lt;/h2&gt;
+&lt;p&gt;A Markov text generator takes a piece of text as input and outputs new text that is seemingly random. It may even make syntactical and/or semantic sense if properly seeded with input text.&lt;/p&gt;
+&lt;p&gt;It accomplishes this by splitting …&lt;/p&gt;</summary><content type="html">&lt;p&gt;For fun, I've recently created my own &lt;a href="https://en.wikipedia.org/wiki/Markov_chain"&gt;Markov&lt;/a&gt; text generator.&lt;/p&gt;
+&lt;h2&gt;Explanation&lt;/h2&gt;
+&lt;p&gt;A Markov text generator takes a piece of text as input and outputs new text that is seemingly random. It may even make syntactical and/or semantic sense if properly seeded with input text.&lt;/p&gt;
+&lt;p&gt;It accomplishes this by splitting the inputted text into tokens based on some separation character. This can result in individual characters or sequences of characters (recognized as words if the separation character is a space).&lt;/p&gt;
+&lt;p&gt;It then creates a chain of these tokens based on the order of their appearance in the text. The length of this chain is chosen by the generator's user. It then adds the token appearing immediately after this chain of tokens to a list that is associated with that particular chain of tokens. Repeating this process for all inputted text creates the Markov chain.&lt;/p&gt;
+&lt;p&gt;To generate the random text, the program chooses a chain of tokens as the starting point of the output text.&lt;/p&gt;
+&lt;p&gt;It then chooses a random token from the list of tokens associated with the chain and add that token to the output text.&lt;/p&gt;
+&lt;p&gt;After, it extends the chain of tokens to include this next token while removing the first token from the chain. This creates a new chain of tokens to then choose another random token from the list associated with the chain.&lt;/p&gt;
+&lt;p&gt;After some determined stopping point, the generator ceases to create more text.&lt;/p&gt;
+&lt;h2&gt;Example&lt;/h2&gt;
+&lt;p&gt;So, let's say I have the input text "I like bananas and apples and oranges."&lt;/p&gt;
+&lt;p&gt;Let's say I want to split this text by spaces, isolating the words and character(s) that come immediately after the word.&lt;/p&gt;
+&lt;p&gt;I also want the chain's length (chain-size from 'Features' above) to be 1.&lt;/p&gt;
+&lt;p&gt;So the following chain would be created with its associated next tokens:&lt;/p&gt;
+&lt;p&gt;chain of tokens: list of tokens coming after the chain in the text&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;quot;I&amp;quot;: [&amp;quot;like&amp;quot;]
+&amp;quot;like&amp;quot;: [&amp;quot;bananas&amp;quot;]
+&amp;quot;bananas&amp;quot;: [&amp;quot;and&amp;quot;]
+&amp;quot;and&amp;quot;: [&amp;quot;apples&amp;quot;, &amp;quot;oranges.&amp;quot;]
+&amp;quot;apples&amp;quot;: [&amp;quot;and&amp;quot;]
+As you can see, the chain &amp;quot;and&amp;quot; has two different words it sees after it in the sentence.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So, there's a 50% probability that "apples" or "oranges." will come after the word "and" according to this sentence. However, with the other words there is a 100% probability that the next word will be the only one contained in their list.&lt;/p&gt;
+&lt;p&gt;You can imagine how more text and chains with lengths greater than 1 will lead to more random and original sentences.&lt;/p&gt;
+&lt;p&gt;Suppose we don't have any separation. Doing this by character makes it more interesting. It will generate more random words, some misspelled because of the random aspects of chain, and will make less semantic sense than creating chains via words (characters separated by a space).&lt;/p&gt;
+&lt;p&gt;Here is a link to it: &lt;a href="https://github.com/evandowning/markov-text-generator"&gt;https://github.com/evandowning/markov-text-generator&lt;/a&gt;&lt;/p&gt;</content><category term="coding-fun"></category><category term="markov"></category></entry></feed>

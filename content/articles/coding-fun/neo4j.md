@@ -87,22 +87,22 @@ timing bar charts of our results:
 
 ## 10 nodes, 10 edges
 <p align="center">
-  <img src="/image/coding-fun/neo4j_fig/10x10.png">
+  <img src="/images/coding-fun/neo4j_fig/10x10.png">
 </p>
 
 ## 1000 nodes, 1000 edges
 <p align="center">
-  <img src="/image/coding-fun/neo4j_fig/1000x1000.png">
+  <img src="/images/coding-fun/neo4j_fig/1000x1000.png">
 </p>
 
 ## 1000 nodes, 10 edges (sparse graph)
 <p align="center">
-  <img src="/image/coding-fun/neo4j_fig/1000x10.png">
+  <img src="/images/coding-fun/neo4j_fig/1000x10.png">
 </p>
 
 ## 10 nodes, 1000 edges (dense graph)
 <p align="center">
-  <img src="/image/coding-fun/neo4j_fig/10x1000.png">
+  <img src="/images/coding-fun/neo4j_fig/10x1000.png">
 </p>
 
 # Conclusion

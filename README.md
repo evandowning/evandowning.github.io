@@ -9,7 +9,7 @@ My website
     ```
   - Download repo
     ```
-    $ git clone https://github.com/evandowning/evandowning.github.io.git`
+    $ git clone https://github.com/evandowning/evandowning.github.io.git
     $ cd evandowning.github.io/
     $ git checkout source
     ```

@@ -10,6 +10,8 @@ except ImportError:
     from pelicanconf import *
 
 SITEURL = "https://www.evandowning.com"
+SITELOGO = SITEURL + "/images/profile.png"
+FAVICON = SITEURL + "/images/favicon.ico"
 
 RELATIVE_URLS = False
 

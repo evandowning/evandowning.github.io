@@ -1,91 +1,85 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+from datetime import datetime
 
-LOAD_CONTENT_CACHE = False
+AUTHOR = "Evan Downing"
+SITEURL = "http://localhost:8000"
+SITENAME = "Evan Downing"
+SITETITLE = "Evan Downing"
+SITESUBTITLE = "Cybersecurity Researcher"
+SITELOGO = SITEURL + "/images/profile.png"
+FAVICON = SITEURL + "/images/favicon.ico"
+BROWSER_COLOR = "#333333"
+PYGMENTS_STYLE = "monokai"
 
-AUTHOR = u'Evan Downing'
-SITENAME = u'Evan Downing'
-SITEURL = ''
+ROBOTS = "index, follow"
 
-TIMEZONE = 'America/New_York'
+THEME = "../pelican-themes/Flex"
+PATH = "content"
+OUTPUT_PATH = "blog/"
+TIMEZONE = "America/New_York"
 
-DEFAULT_LANG = u'en'
+PLUGIN_PATHS = ["../pelican-plugins"]
+PLUGINS = ["post_stats"]
 
-PATH = 'content'
-PAGE_PATHS = ['page']
-ARTICLE_PATHS = ['blog']
-STATIC_PATHS = ['page','blog','image','file']
+DISABLE_URL_HASH = True
 
-EXTRA_PATH_METADATA = {
-    'file/CNAME': {'path': 'CNAME'},
-    'image/favicon.ico': {'path': 'favicon.ico'},
+I18N_TEMPLATES_LANG = "en"
+DEFAULT_LANG = "en"
+OG_LOCALE = "en_US"
+LOCALE = "en_US"
+
+DATE_FORMATS = {
+    "en": "%B %d, %Y",
 }
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = "feeds/all.atom.xml"
+CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+USE_FOLDER_AS_CATEGORY = True
+MAIN_MENU = True
+HOME_HIDE_TAGS = True
+LINKS_IN_NEW_TAB = False
 
-ICONS = [
-    ('rss', 'feeds/all.rss.xml'),
-]
-
-GOOGLE_ANALYTICS = 'UA-139439777-1'
-
-MENUITEMS = (
-    ('About', '/pages/about.html'),
-    ('CV', '/file/Downing_CV.pdf'),
-    ('Projects', '/pages/projects.html'),
-    ('PGP', '/file/pgp_public.asc'),
-    ('Github', 'https://github.com/evandowning'),
-    ('Google Scholar', 'https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en'),
+LINKS = (
+    ("CV", "/extra/Downing_CV.pdf"),
 )
 
+SOCIAL = (
+    ("twitter", "https://twitter.com/_evandowning"),
+    ("linkedin", "https://www.linkedin.com/in/evandowning/"),
+    ("google", "https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en"),
+    ("github", "https://github.com/evandowning"),
+)
+
+MENUITEMS = (
+    ("Archives", "/archives.html"),
+    ("Categories", "/categories.html"),
+    ("Tags", "/tags.html"),
+)
+
+CC_LICENSE = {
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International License",
+    "version": "4.0",
+    "slug": "by-sa",
+    "icon": True,
+    "language": "en_US",
+}
+
+COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 5
 
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+STATIC_PATHS = ["images", "extra/CNAME", "extra/Downing_CV.pdf", "extra/custom.css"]
 
-USE_FOLDER_AS_CATEGORY = True
+EXTRA_PATH_METADATA = {
+    "extra/CNAME": {"path": "CNAME"},
+    "extra/custom.css": {"path": "static/custom.css"},
+}
 
-###############
-# Theme stuff #
-###############
+CUSTOM_CSS = "static/custom.css"
 
-THEME = 'theme/pelican-blueidea'
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
-# Display pages list on the top menu
-DISPLAY_PAGES_ON_MENU = False
-
-# Display categories list on the top menu
-DISPLAY_CATEGORIES_ON_MENU = False
-
-# Display categories list as a submenu of the top menu
-DISPLAY_CATEGORIES_ON_SUBMENU = True
-
-# Display the category in the article's info
-DISPLAY_CATEGORIES_ON_POSTINFO = True
-
-# Display the author in the article's info
-DISPLAY_AUTHOR_ON_POSTINFO = False
-
-# Display the search form
-DISPLAY_SEARCH_FORM = False
-
-# Sort pages list by a given attribute
-#PAGES_SORT_ATTRIBUTE (Title)
-
-# Display the "Fork me on Github" banner
-#GITHUB_URL (None)
-
-# Blogroll
-#LINKS 
-
-# Social widget
-#SOCIAL
+USE_LESS = True

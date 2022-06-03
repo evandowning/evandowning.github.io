@@ -1,0 +1,24 @@
+/* From pelican-themes/Flex/static/stylesheet/style.less */
+
+/* Links */
+a {
+  color: #5859FB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8181F7;
+}
+
+
+/* Buttons */
+a.btn,
+section#isso-thread section.auth-section p.post-action input {
+  background-color: #5859FB;
+}
+
+a.btn:hover {
+  background-color: #8181F7;
+  color: #000000;
+}
+

@@ -1,3 +1,0 @@
-Title: Projects
-
-Where my projects will go...

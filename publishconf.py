@@ -1,24 +1,18 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
-
 import os
 import sys
+
 sys.path.append(os.curdir)
-from pelicanconf import *
 
-SITEURL = ''
-RELATIVE_URLS = True
+try:
+    from pelicanconf import *
+except ImportError:
+    sys.path.append(os.path.join(os.curdir, "docs"))
+    from pelicanconf import *
 
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+SITEURL = "https://www.evandowning.com"
 
-DELETE_OUTPUT_DIRECTORY = True
+RELATIVE_URLS = False
 
-# Following items are often useful when publishing
+USE_LESS = False
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = 'UA-139439777-1'

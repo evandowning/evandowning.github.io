@@ -27,3 +27,18 @@ My website
     $ make github
     ```
   - Commit changes and push to `source` branch
+
+## Google Analytics
+  - If theme doesn't support updated Google Analytics tags, add this to `base.html` in the theme's folder:
+    ```
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ GOOGLE_ANALYTICS }}');
+    </script>
+    <!-- End Google Analytics -->
+    ```

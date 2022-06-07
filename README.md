@@ -22,7 +22,7 @@ My website
     ```
     $ make devserver
     ```
-  - Make output for Github
+  - Push website content to Github
     ```
     $ make github
     ```

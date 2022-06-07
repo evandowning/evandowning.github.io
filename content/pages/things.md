@@ -2,15 +2,15 @@ Title: Things I Use
 
 **System**
 
-  * Debian GNU/Linux
-  * LineageOS
-  * Qubes OS
+  * [Debian GNU/Linux](https://www.debian.org/)
+  * [LineageOS](https://lineageos.org/)
+  * [Qubes OS](https://www.qubes-os.org/)
 
 **Software/Service**
 
-  * Brave Browser
-  * KeePassXC
-  * Overleaf
-  * Proton Mail/VPN/Calendar
-  * Signal
-  * Zotero
+  * [Brave Browser](https://brave.com/)
+  * [KeePassXC](https://keepassxc.org/)
+  * [Overleaf](https://www.overleaf.com/)
+  * [Proton Mail/VPN/Calendar](https://proton.me/)
+  * [Signal](https://signal.org/)
+  * [Zotero](https://www.zotero.org/)

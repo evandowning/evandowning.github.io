@@ -11,6 +11,6 @@ Title: Things I Use
   * [Brave Browser](https://brave.com/)
   * [KeePassXC](https://keepassxc.org/)
   * [Overleaf](https://www.overleaf.com/)
-  * [Proton Mail/VPN/Calendar](https://proton.me/)
+  * [Proton](https://proton.me/)
   * [Signal](https://signal.org/)
   * [Zotero](https://www.zotero.org/)

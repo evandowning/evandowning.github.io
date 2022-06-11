@@ -2,12 +2,12 @@
 My website
 
 ## Modifying
-  - Install themes & plugins
+  - Clone themes & plugins
     ```
     $ git clone --recursive git@github.com:getpelican/pelican-themes.git
     $ git clone --recursive git@github.com:getpelican/pelican-plugins.git
     ```
-  - Download repo
+  - Clone this repo
     ```
     $ git clone https://github.com/evandowning/evandowning.github.io.git
     $ cd evandowning.github.io/

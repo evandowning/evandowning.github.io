@@ -43,7 +43,7 @@ HOME_HIDE_TAGS = True
 LINKS_IN_NEW_TAB = False
 
 LINKS = (
-    ("CV", "/extra/Downing_CV.pdf"),
+    ("CV", "https://docs.google.com/document/d/1UcXkHeRCKpBvlf4KyW92GKjyEeoiPgXGdW7ARPSa2L4"),
 )
 
 SOCIAL = (
@@ -71,7 +71,7 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 5
 
-STATIC_PATHS = ["images", "extra/CNAME", "extra/Downing_CV.pdf", "extra/custom.css"]
+STATIC_PATHS = ["images", "extra/CNAME", "extra/custom.css"]
 
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},

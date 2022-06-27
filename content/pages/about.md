@@ -4,6 +4,6 @@ Evan is currently enrolled as a [Computer Science Ph.D.](http://www.cc.gatech.ed
 
 He works as a graduate student under [Prof. Wenke Lee](http://wenke.gtisc.gatech.edu/) in the [School of Cybersecurity & Privacy (SCP)](https://scp.cc.gatech.edu/).
 
-For the full record of Evan's academic experience, please refer to his [Curriculum Vitae](https://docs.google.com/document/d/1UcXkHeRCKpBvlf4KyW92GKjyEeoiPgXGdW7ARPSa2L4).
+For the full record of Evan's experience, please refer to his [Curriculum Vitae](https://docs.google.com/document/d/1UcXkHeRCKpBvlf4KyW92GKjyEeoiPgXGdW7ARPSa2L4).
 
 After he graduates from school, he is interested in continuing his research and teaching in an academic setting (e.g. a Research Scientist and an Adjunct Professor at a local University).

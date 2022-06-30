@@ -10,8 +10,18 @@ a:hover {
   color: #8181F7;
 }
 
+/* Tag cloud */
+.tag-cloud a {
+    background-color: #5859FB;
+    color: #ffffff;
+}
 
-/* Buttons */
+.tag-cloud a:hover {
+    background-color: #8181F7;
+    color: #000000;
+}
+
+/* Button */
 a.btn,
 section#isso-thread section.auth-section p.post-action input {
   background-color: #5859FB;
@@ -21,4 +31,3 @@ a.btn:hover {
   background-color: #8181F7;
   color: #000000;
 }
-

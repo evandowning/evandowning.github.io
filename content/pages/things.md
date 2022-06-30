@@ -15,4 +15,5 @@ Title: Things I Use
   * [Proton](https://proton.me/)
   * [QuiteRSS](https://quiterss.org/)
   * [Signal](https://signal.org/)
+  * [YubiKey](https://www.yubico.com/)
   * [Zotero](https://www.zotero.org/)

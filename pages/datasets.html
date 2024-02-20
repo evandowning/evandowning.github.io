@@ -60,7 +60,7 @@
 
 
 
-  <title>Evan Downing &ndash; Things I Use</title>
+  <title>Evan Downing &ndash; Datasets</title>
 
 </head>
 <body >
@@ -88,8 +88,20 @@
               </li>
               <li>
                 <a target="_self"
+                   href="http://localhost:8000/pages/datasets.html">
+                  Datasets
+                </a>
+              </li>
+              <li>
+                <a target="_self"
                    href="http://localhost:8000/pages/projects.html">
                   Projects
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="http://localhost:8000/pages/suggested-reads.html">
+                  Suggested Reads
                 </a>
               </li>
               <li>
@@ -155,84 +167,24 @@
 <article class="single">
   <header>
     
-    <h1 id="things-i-use">Things I Use</h1>
+    <h1 id="datasets">Datasets</h1>
   </header>
   <div>
-<p><strong>Personal</strong></p>
-<ul>
-<li>
-<p>System</p>
-<ul>
-<li>Laptop &amp; Server OS: <a href="https://www.debian.org/">Debian GNU/Linux</a></li>
-<li>Mobile OS: <a href="https://lineageos.org/">LineageOS</a></li>
-</ul>
-</li>
-<li>
-<p>Software/Service</p>
-<ul>
-<li>Web browser: <a href="https://brave.com/">Brave Browser</a></li>
-<li>Private email/calendar/drive/vpn/password manager: <a href="https://proton.me/">Proton</a></li>
-<li>Private messaging: <a href="https://signal.org/">Signal</a></li>
-<li>Multi-factor authentication: <a href="https://www.yubico.com/">YubiKey</a></li>
-<li>Writing papers: <a href="https://www.overleaf.com/">Overleaf</a></li>
-<li>Creating figures: <a href="https://inkscape.org/">Inkscape</a></li>
-<li>Paper organizer: <a href="https://www.zotero.org/">Zotero</a></li>
-<li>Download video/audio: <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a></li>
-<li>Genealogy: <a href="https://gramps-project.org/blog/">gramps</a></li>
-<li>Tor: <a href="https://www.torproject.org/">Tor Browser</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>Software Development</strong></p>
-<ul>
-<li>Project management: <a href="https://asana.com/">asana</a></li>
-<li>Session management: <a href="https://github.com/tmux/tmux">tmux</a></li>
-<li>Text &amp; Hex editor: <a href="https://www.vim.org/">vim</a></li>
-<li>Version control: <a href="https://git-scm.com/">git</a></li>
-</ul>
-<p><strong>Malware Tools</strong></p>
-<ul>
-<li>
-<p>Systems:</p>
-<ul>
-<li>Reverse Engineering: <a href="https://github.com/mandiant/flare-vm">FLARE VM</a></li>
-<li>Automated Sandbox: <a href="https://github.com/kevoreilly/CAPEv2">CAPEv2</a></li>
-</ul>
-</li>
-<li>
-<p>Malware sample collection:</p>
-<ul>
-<li>Honeypot: <a href="https://github.com/cowrie/cowrie">cowrie</a></li>
-<li>Sample &amp; source code collection: <a href="https://vx-underground.org/">vxunderground</a></li>
-</ul>
-</li>
-<li>
-<p>Dynamic analysis:</p>
-<ul>
-<li>Debugging on Windows: <a href="https://github.com/x64dbg/x64dbg">x64dbg</a></li>
-<li>Debugging on GNU/Linux: <a href="https://www.sourceware.org/gdb/">gdb</a></li>
-<li>Network traffic collection &amp; analysis: <a href="https://www.wireshark.org/">Wireshark</a></li>
-<li>Memory forensics: <a href="https://github.com/volatilityfoundation/volatility3">Volatility</a></li>
-</ul>
-</li>
-<li>
-<p>Static analysis:</p>
-<ul>
-<li>Unpacking: <a href="https://github.com/unipacker/unipacker">unipacker</a></li>
-<li>Disassembling &amp; Decompiling: <a href="https://github.com/NationalSecurityAgency/ghidra">Ghidra</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>Skills Development</strong></p>
-<ul>
-<li>Programming: <a href="https://leetcode.com/">leetcode</a></li>
-<li>Reverse engineering Windows binaries: <a href="https://flare-on.com/">flare-on</a></li>
-<li>Linux Hacking: <a href="https://pwnable.kr/">pwnable</a></li>
-<li>System Design: <a href="https://www.designgurus.io/course-play/grokking-the-system-design-interview">course</a></li>
-<li>System Programming: <a href="https://github.com/mit-pdos/xv6-riscv">xv6</a> and <a href="https://pdos.csail.mit.edu/6.1810">course</a></li>
-<li>Writing: "Style: Lessons in Clarity and Grace" by William Colomb</li>
-<li>LinkedIn Learning: <a href="https://www.linkedin.com/learning">courses</a></li>
-</ul>  </div>
+<p>This is a good website for lots of general cyber security datasets: http://www.secrepo.com/</p>
+<p>The most recent Windows malware samples I have (personally) are from 2017-2020.
+Lots of different types of malware (js, pdf, pe, docx, jar, python, etc.) and their Virustotal reports. I think there are 300k PE samples in total. I don't remember the counts of the other file types of malware.</p>
+<p>If you're looking for a huge malware dataset, there is the SOREL dataset from 2020: https://github.com/sophos/SOREL-20M 
+If you're looking for bleeding edge (and historic) malware binaries from 2010-today, I'd look at vx-underground: https://www.vx-underground.org/malware.html 
+They're constantly adding new samples every day.</p>
+<p>I have about 60k benign Windows binaries I collected from CNET back in 2018.</p>
+<p>If you want access to the 300k PE samples and/or the 60k benign samples, give me your ssh public key and I'll give you access.</p>
+<p>Tools</p>
+<p>If you want to use ML to perform malware classification using static features, I'd look at this: https://github.com/elastic/ember
+If you want to use ML to perform malware clustering using system-side dynamic features, I'd look at this: https://github.com/rieck/malheur
+If you want to execute malware to collect dynamic behaviors, I'd look at this: https://github.com/kevoreilly/CAPEv2</p>
+<p>I have personally executed ~100k samples (a mixture of benign and malicious) using CAPEv2.
+I can share the reports (which contain processes, api calls, arguments, etc.) with you if you'd like, but mind you they take up about 110GB of storage.
+These reports are on Google Drive, so let me know if you want access to these as well.</p>  </div>
 </article>
 
     <footer>

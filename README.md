@@ -15,23 +15,25 @@ My website
     ```
   - Install requirements
     ```
-    $ mkvirtualenv website --python=python3
+    # Create a 'website' python virtual environment.
+
+    # Install dependencies
     (website) $ pip install -r requirements.txt
     ```
   - Make modifications and visit `localhost:8000`
     ```
-    $ make devserver
+    (website) $ make devserver
     ```
   - Push website content to Github
     ```
-    $ make github
+    (website) $ make github
     ```
   - Commit changes and push to `source` branch
 
 ## Google Analytics
-  - If theme doesn't support updated Google Analytics tags, add this to `base.html` in the theme's folder:
+  - If theme doesn't support the updated Google Analytics tags, add this to `base.html` in the theme's folder:
     ```
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -40,5 +42,4 @@ My website
 
       gtag('config', '{{ GOOGLE_ANALYTICS }}');
     </script>
-    <!-- End Google Analytics -->
     ```

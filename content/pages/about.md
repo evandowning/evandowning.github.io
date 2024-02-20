@@ -1,9 +1,16 @@
 Title: About
 
-Evan is currently enrolled as a [Computer Science Ph.D.](http://www.cc.gatech.edu/phd-computer-science) student at [Georgia Institute of Technology](http://www.gatech.edu/) studying [Information Security](http://www.scs.gatech.edu/content/information-security).
+Evan Downing is a cybersecurity researcher whose interests are malware analysis & detection, and intrusion detection.
 
-He works as a graduate student under [Prof. Wenke Lee](http://wenke.gtisc.gatech.edu/) in the [School of Cybersecurity & Privacy (SCP)](https://scp.cc.gatech.edu/).
+His research explores how to improve malware analysts' workflow efficiency using machine learning for both automation and improved accuracy.
 
-For the full record of Evan's experience, please refer to his [Curriculum Vitae](https://docs.google.com/document/d/1UcXkHeRCKpBvlf4KyW92GKjyEeoiPgXGdW7ARPSa2L4).
+His goal is to build tools that analysts want to use every day, and bring analysts into the decision-making process of machine learning.
 
-After he graduates from school, he is interested in continuing his research and teaching in an academic setting (e.g. a Research Scientist and an Adjunct Professor at a local University).
+His Erdős number is 4: Evan Downing -> Wenke Lee -> Richard Lipton -> Noga Alon -> Paul Erdős
+
+His Computer Science PhD [Genealogy](https://www.genealogy.math.ndsu.nodak.edu/) is:
+
+  * Evan Downing [2023, Georgia Institute of Technology, USA]
+  * Wenke Lee [1999, Columbia University, USA]
+  * Salvatore J. Stolfo [1979, NYU Courant Institute, USA]
+  * Malcolm C. Harrison [1962, Leeds University, England]

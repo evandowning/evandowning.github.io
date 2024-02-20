@@ -1,5 +1,6 @@
 Title: Markov Text Generator
 Date: 2016-01-16
+Modified: 2016-01-16
 Tags: markov
 
 For fun, I've recently created my own [Markov](https://en.wikipedia.org/wiki/Markov_chain) text generator.

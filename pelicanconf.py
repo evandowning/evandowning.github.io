@@ -43,15 +43,15 @@ HOME_HIDE_TAGS = True
 LINKS_IN_NEW_TAB = False
 
 LINKS = (
+    ("Resume", "https://docs.google.com/document/d/1sKsh88ZiiveotGS-KR4l-vESgfj_U_JifvH6nGat-Wk"),
     ("CV", "https://docs.google.com/document/d/1UcXkHeRCKpBvlf4KyW92GKjyEeoiPgXGdW7ARPSa2L4"),
 )
 
 SOCIAL = (
-    ("twitter", "https://twitter.com/_evandowning"),
-    ("linkedin", "https://www.linkedin.com/in/evandowning/"),
-    ("google", "https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en"),
     ("github", "https://github.com/evandowning"),
-    ("mixcloud", "https://www.mixcloud.com/evandowning/")
+    ("google", "https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en"),
+    ("linkedin", "https://www.linkedin.com/in/evandowning/"),
+    ("mixcloud", "https://www.mixcloud.com/evandowning/"),
 )
 
 MENUITEMS = (

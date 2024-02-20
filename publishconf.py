@@ -16,5 +16,3 @@ FAVICON = SITEURL + "/images/favicon.ico"
 RELATIVE_URLS = False
 
 USE_LESS = False
-
-GOOGLE_ANALYTICS = 'G-C0W4PHDF8Y'

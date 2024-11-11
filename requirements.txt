@@ -1,4 +1,4 @@
-pelican>=4.9.1
-Markdown>=3.5.2
+pelican>=4.10.1
+Markdown>=3.7
 beautifulsoup4>=4.12.3
 ghp-import>=2.1.0

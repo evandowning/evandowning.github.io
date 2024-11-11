@@ -2,15 +2,15 @@ Title: Datasets
 Date: 2019-01-01
 Modified: 2023-02-18
 
-This is a good website for lots of general cyber security datasets: [http://www.secrepo.com/](http://www.secrepo.com/)
+This is a good website for lots of general cybersecurity datasets: <http://www.secrepo.com/>
 
-**Malware Samples**:
+## Malware Samples
 
-  * Large dataset: [https://github.com/sophos/SOREL-20M](https://github.com/sophos/SOREL-20M/)
-  * Malware from 2010-today: [https://www.vx-underground.org/](https://www.vx-underground.org/)
+* Large dataset: <https://github.com/sophos/SOREL-20M>
+* Malware from 2010-today: <https://www.vx-underground.org/>
 
-**Gathering Data**:
+## Gathering Data
 
-  * Static features for PE malware classification: [https://github.com/elastic/ember](https://github.com/elastic/ember)
-  * Dynamic features for clustering PE malware: [https://github.com/rieck/malheur](https://github.com/rieck/malheur)
-  * Executing samples to collect behaviors: [https://github.com/kevoreilly/CAPEv2](https://github.com/kevoreilly/CAPEv2)
+* Static features for PE malware classification: <https://github.com/elastic/ember>
+* Dynamic features for clustering PE malware: <https://github.com/rieck/malheur>
+* Executing samples to collect behaviors: <https://github.com/kevoreilly/CAPEv2>

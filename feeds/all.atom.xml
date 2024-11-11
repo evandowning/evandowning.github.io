@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Downing</title><link href="https://www.evandowning.com/" rel="alternate"></link><link href="https://www.evandowning.com/feeds/all.atom.xml" rel="self"></link><id>https://www.evandowning.com/</id><updated>2023-02-18T00:00:00-05:00</updated><subtitle>Cybersecurity Researcher</subtitle><entry><title>Documenting Malware for Research</title><link href="https://www.evandowning.com/documenting-malware-for-research.html" rel="alternate"></link><published>2022-09-08T00:00:00-04:00</published><updated>2022-09-08T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2022-09-08:/documenting-malware-for-research.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Downing</title><link href="https://www.evandowning.com/" rel="alternate"></link><link href="https://www.evandowning.com/feeds/all.atom.xml" rel="self"></link><id>https://www.evandowning.com/</id><updated>2024-11-11T00:00:00-05:00</updated><subtitle>Cybersecurity Researcher</subtitle><entry><title>Documenting Malware for Research</title><link href="https://www.evandowning.com/documenting-malware-for-research.html" rel="alternate"></link><published>2022-09-08T00:00:00-04:00</published><updated>2022-09-08T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2022-09-08:/documenting-malware-for-research.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;When I first began my PhD, my advisor suggested I go through various malware source codes (released openly on the Internet) to compile, execute, understand, and document them for future use.&lt;/p&gt;
 &lt;p&gt;This inevitably paid off, in that it helped me more easily create ground-truth for my datasets and experiments …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;When I first began my PhD, my advisor suggested I go through various malware source codes (released openly on the Internet) to compile, execute, understand, and document them for future use.&lt;/p&gt;
@@ -30,13 +30,35 @@ The sole purpose is to facilitate an easy way for a researcher to test their sol
 &lt;p&gt;What will take time is documenting how a researcher without access to older versions of VisualStudio (which some of these malware require) will compile and use these samples. I will likely need to update the sample sources to be compatible with the newest versions of Visual Studio. I also plan to write &lt;a href="https://resources.github.com/ci-cd/"&gt;CI/CD&lt;/a&gt; pipelines to ensure the malware doesn't breaking in the future.&lt;/p&gt;
 &lt;p&gt;If you have any complaints of incomplete or incorrect documentation, please open an issue in the git repo above.&lt;/p&gt;
 &lt;p&gt;If you have any contributions, please create a pull request.&lt;/p&gt;
-&lt;p&gt;I hope this is useful for you.&lt;/p&gt;</content><category term="malware"></category><category term="malware"></category><category term="usable-malware"></category></entry><entry><title>Things I Use</title><link href="https://www.evandowning.com/things-i-use.html" rel="alternate"></link><published>2021-01-01T00:00:00-05:00</published><updated>2023-02-18T00:00:00-05:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2021-01-01:/things-i-use.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Personal&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I hope this is useful for you.&lt;/p&gt;</content><category term="malware"></category><category term="malware"></category><category term="usable-malware"></category></entry><entry><title>Things I Use</title><link href="https://www.evandowning.com/things-i-use.html" rel="alternate"></link><published>2021-01-01T00:00:00-05:00</published><updated>2024-11-11T00:00:00-05:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2021-01-01:/things-i-use.html</id><summary type="html">&lt;h2&gt;Personal&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;System&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Laptop &amp;amp; Server OS: &lt;a href="https://www.debian.org/"&gt;Debian GNU/Linux&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mobile OS: &lt;a href="https://lineageos.org/"&gt;LineageOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Work Laptop: Apple MacBook Pro&lt;/li&gt;
+&lt;li&gt;Mobile: Google Pixel&lt;/li&gt;
+&lt;li&gt;DJ Laptop: Apple MacBook Air&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Software/Service&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web browser: &lt;a href="https://brave.com/"&gt;Brave Browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Private email/calendar/drive/vpn/password manager: &lt;a href="https://proton.me/"&gt;Proton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Private messaging: &lt;a href="https://signal.org/"&gt;Signal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Multi-factor authentication: &lt;a href="https://www.yubico.com/"&gt;YubiKey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Writing papers: &lt;a href="https://www.overleaf.com/"&gt;Overleaf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Creating figures: &lt;a href="https://inkscape.org/"&gt;Inkscape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paper organizer: &lt;a href="https://www.zotero.org/"&gt;Zotero&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download video/audio: &lt;a href="https://github.com/yt-dlp/yt-dlp"&gt;yt-dlp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Genealogy: &lt;a href="https://gramps-project.org/blog/"&gt;gramps …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Personal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;System&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Work Laptop: Apple MacBook Pro&lt;/li&gt;
+&lt;li&gt;Mobile: Google Pixel&lt;/li&gt;
+&lt;li&gt;DJ Laptop: Apple MacBook Air&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -55,39 +77,15 @@ The sole purpose is to facilitate an easy way for a researcher to test their sol
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Software …&lt;/strong&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Personal&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;System&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Laptop &amp;amp; Server OS: &lt;a href="https://www.debian.org/"&gt;Debian GNU/Linux&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mobile OS: &lt;a href="https://lineageos.org/"&gt;LineageOS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Software/Service&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Web browser: &lt;a href="https://brave.com/"&gt;Brave Browser&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Private email/calendar/drive/vpn/password manager: &lt;a href="https://proton.me/"&gt;Proton&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Private messaging: &lt;a href="https://signal.org/"&gt;Signal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Multi-factor authentication: &lt;a href="https://www.yubico.com/"&gt;YubiKey&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Writing papers: &lt;a href="https://www.overleaf.com/"&gt;Overleaf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Creating figures: &lt;a href="https://inkscape.org/"&gt;Inkscape&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper organizer: &lt;a href="https://www.zotero.org/"&gt;Zotero&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Download video/audio: &lt;a href="https://github.com/yt-dlp/yt-dlp"&gt;yt-dlp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Genealogy: &lt;a href="https://gramps-project.org/blog/"&gt;gramps&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tor: &lt;a href="https://www.torproject.org/"&gt;Tor Browser&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Software Development&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Software Development&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Project management: &lt;a href="https://asana.com/"&gt;asana&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Session management: &lt;a href="https://github.com/tmux/tmux"&gt;tmux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IDE: &lt;a href="https://code.visualstudio.com/"&gt;VS Code&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Text &amp;amp; Hex editor: &lt;a href="https://www.vim.org/"&gt;vim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Version control: &lt;a href="https://git-scm.com/"&gt;git&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Malware Tools&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Analysis Tools&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Dynamic analysis:&lt;/p&gt;
@@ -108,7 +106,16 @@ The sole purpose is to facilitate an easy way for a researcher to test their sol
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Skills Development&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;LLM Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Interacting with LLMs locally: &lt;a href="https://anythingllm.com/"&gt;AnythingLLM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Implementing LLM-based solutions:&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://langfuse.com/"&gt;LangFuse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.langchain.com/"&gt;LangChain&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Skills Development&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Programming: &lt;a href="https://leetcode.com/"&gt;leetcode&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Reverse engineering Windows binaries: &lt;a href="https://flare-on.com/"&gt;flare-on&lt;/a&gt;&lt;/li&gt;
@@ -117,78 +124,25 @@ The sole purpose is to facilitate an easy way for a researcher to test their sol
 &lt;li&gt;Operating System Engineering: &lt;a href="https://github.com/mit-pdos/xv6-riscv"&gt;xv6&lt;/a&gt; and &lt;a href="https://pdos.csail.mit.edu/6.1810"&gt;course&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Writing: "Style: Lessons in Clarity and Grace" by William Colomb&lt;/li&gt;
 &lt;li&gt;LinkedIn Learning: &lt;a href="https://www.linkedin.com/learning"&gt;courses&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Benchmarking Neo4j</title><link href="https://www.evandowning.com/benchmarking-neo4j.html" rel="alternate"></link><published>2019-05-19T00:00:00-04:00</published><updated>2019-05-19T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-05-19:/benchmarking-neo4j.html</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://neo4j.com/"&gt;Neo4j&lt;/a&gt; is a graph database implementation. It's used for creating large
-graphs to efficiently create and query various relationships. For an explanation on the differences
-between graph databases and relational database (like &lt;a href="https://www.mysql.com/"&gt;MySQL&lt;/a&gt; and &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt;),
-see &lt;a href="https://neo4j.com/developer/graph-db-vs-rdbms/"&gt;https://neo4j.com/developer/graph-db-vs-rdbms/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I required Neo4j for one of my projects …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://neo4j.com/"&gt;Neo4j&lt;/a&gt; is a graph database implementation. It's used for creating large
-graphs to efficiently create and query various relationships. For an explanation on the differences
-between graph databases and relational database (like &lt;a href="https://www.mysql.com/"&gt;MySQL&lt;/a&gt; and &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt;),
-see &lt;a href="https://neo4j.com/developer/graph-db-vs-rdbms/"&gt;https://neo4j.com/developer/graph-db-vs-rdbms/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I required Neo4j for one of my projects and one of the issues we were running into was that it
-was taking a long time to create our massive graphs (10s of millions of nodes with 100s of millions
-of edges). We had read that Neo4j was completely capable of handling graphs of this size (and larger)
-but couldn't figure out why our methods of creating our graphs were so slow.&lt;/p&gt;
-&lt;p&gt;Unfortunately I couldn't find anyone online who had done benchmarking on creating various sizes
-of graphs using the different ways of creating a Neo4j graph (which I will explain below). So I thought
-this was a great opportunity to write some code to test the various ways of creating Neo4j graphs
-and share my results with anyone interested in answering the same question.&lt;/p&gt;
-&lt;h1&gt;Creating Neo4j Graphs the "Normal" Way&lt;/h1&gt;
-&lt;p&gt;When you first read Neo4j tutorials on creating graphs, they probably mention
-something about &lt;code&gt;MERGE&lt;/code&gt; for creating Nodes and &lt;code&gt;CREATE&lt;/code&gt; for creating Edges.
-&lt;code&gt;MERGE&lt;/code&gt; is helpful because it will simultaneously check and create a unique node
-if it does not exist. If &lt;code&gt;MERGE&lt;/code&gt; didn't exist, you would have to create some &lt;code&gt;MATCH&lt;/code&gt;
-condition to say "if this node doesn't exist yet, create it". In the graphs for my
-project, all of the nodes and edges had to be unique.&lt;/p&gt;
-&lt;p&gt;Our &lt;strong&gt;first&lt;/strong&gt; implementation just contained those simple queries: Create a node
-and create an edge. That ended up being very slow (taking 40 seconds to create a graph
-with 1000 nodes and 1000 edges). So the &lt;strong&gt;second&lt;/strong&gt; thing we tried
-was creating each node and edge in the same query (as opposed to creating each
-individual node and edge within individual queries). Another thing we added
-was creating all nodes and edges first and then creating the remaining unconnected
-nodes at the end. We also tried adding an &lt;code&gt;INDEX&lt;/code&gt; to each node as well.
-This implementation was faster than the first, but still too slow for our needs.
-Our test graph (1000 nodes and 1000 edges) took roughly 30 seconds to create.&lt;/p&gt;
-&lt;p&gt;Then we found a query called a &lt;code&gt;CONSTRAINT&lt;/code&gt; which allows the user to create some
-logical rule for the graph database to follow. For us, it was to only accept
-unique nodes and edges. But this &lt;strong&gt;third&lt;/strong&gt; implementation also wasn't very fast.
-Finally we tried getting rid of both &lt;code&gt;INDEX&lt;/code&gt; and &lt;code&gt;CONSTRAINT&lt;/code&gt; to see if that
-was bogging anything down, but to no avail. Our &lt;strong&gt;fourth&lt;/strong&gt; implementation had
-failed us.&lt;/p&gt;
-&lt;p&gt;We then created a &lt;strong&gt;batch&lt;/strong&gt; implementation where we would batch multiple queries
-into one (a similar technique used on relational databases). Unfortunately
-this ended up being slower than our first implementation. Needless to say we
-were frustrated, but knew there must be a solution that Neo4j provides us.&lt;/p&gt;
-&lt;h1&gt;Pause for Consideration&lt;/h1&gt;
-&lt;p&gt;These timings may sound fast to someone with sufficiently small graphs, but it would take
-us nearly 10 days to create a single graph with 10s of millions of nodes
-and 100s of millions of edges (which was way too slow for our needs). Our
-particular application required streaming graph data to our server where we
-would need to create these large graphs in realtime (and 10 days was barely
-realtime). Also we noticed that creating the graphs slowed over time as the
-graph size grew, so our guestimate of 10 days was actually much smaller compared
-to what we experienced in reality.&lt;/p&gt;
-&lt;h1&gt;Creating Neo4j Graphs the Efficient Way&lt;/h1&gt;
-&lt;p&gt;After scouring the Internet for a day or so, we happened upon two
-query methods used to create graphs quickly: &lt;code&gt;UNWIND&lt;/code&gt; and &lt;code&gt;LOADCSV&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;One can think of &lt;code&gt;UNWIND&lt;/code&gt; as the proper way to use batching in Neo4j
-(like we had tried to emulate above for batching for relational databases).
-Immediately we saw fantastic results. The time it took to create a graph
-decreased by an order of magnitude (our 1000 node 1000 edge graph took
-seconds). Unfortunately during our evaluation of our project, it still
-was slower than realtime after a day or so of running it with our streaming
-data. It eventually caught up, but after several days of letting it run
-after our streaming data stopped after 2 weeks.&lt;/p&gt;
-&lt;p&gt;Finally we found the best implementation. &lt;code&gt;LOADCSV&lt;/code&gt; is by far the
-fastest way to create large graphs. It had been touted as being able
-to create a 30 million node graph in minutes &lt;a href="https://neo4j.com/blog/import-10m-stack-overflow-questions/"&gt;https://neo4j.com/blog/import-10m-stack-overflow-questions/&lt;/a&gt;.
-When we implemented using it ourselves it decreased our graph creation
-time down to 0.17 seconds. Another order of magnitude difference!&lt;/p&gt;
-&lt;p&gt;But we were also curious in knowing how much different types and
-sizes of graphs affected the creation time. Below are various
-timing bar charts of our results:&lt;/p&gt;
+&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Benchmarking Neo4j</title><link href="https://www.evandowning.com/benchmarking-neo4j.html" rel="alternate"></link><published>2019-05-19T00:00:00-04:00</published><updated>2019-05-19T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-05-19:/benchmarking-neo4j.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://neo4j.com/"&gt;Neo4j&lt;/a&gt; is a graph database implementation. It's used for creating large graphs to efficiently create and query various relationships. For an explanation on the differences between graph databases and relational database (like &lt;a href="https://www.mysql.com/"&gt;MySQL&lt;/a&gt; and &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt;), see &lt;a href="https://neo4j.com/developer/graph-db-vs-rdbms/"&gt;https://neo4j.com/developer/graph-db-vs-rdbms/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I required Neo4j for one of my projects …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://neo4j.com/"&gt;Neo4j&lt;/a&gt; is a graph database implementation. It's used for creating large graphs to efficiently create and query various relationships. For an explanation on the differences between graph databases and relational database (like &lt;a href="https://www.mysql.com/"&gt;MySQL&lt;/a&gt; and &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt;), see &lt;a href="https://neo4j.com/developer/graph-db-vs-rdbms/"&gt;https://neo4j.com/developer/graph-db-vs-rdbms/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I required Neo4j for one of my projects and one of the issues we were running into was that it was taking a long time to create our massive graphs (10s of millions of nodes with 100s of millions of edges). We had read that Neo4j was completely capable of handling graphs of this size (and larger) but couldn't figure out why our methods of creating our graphs were so slow.&lt;/p&gt;
+&lt;p&gt;Unfortunately I couldn't find anyone online who had done benchmarking on creating various sizes of graphs using the different ways of creating a Neo4j graph (which I will explain below). So I thought this was a great opportunity to write some code to test the various ways of creating Neo4j graphs and share my results with anyone interested in answering the same question.&lt;/p&gt;
+&lt;h2&gt;Creating Neo4j Graphs the "Normal" Way&lt;/h2&gt;
+&lt;p&gt;When you first read Neo4j tutorials on creating graphs, they probably mention something about &lt;code&gt;MERGE&lt;/code&gt; for creating Nodes and &lt;code&gt;CREATE&lt;/code&gt; for creating Edges. &lt;code&gt;MERGE&lt;/code&gt; is helpful because it will simultaneously check and create a unique node if it does not exist. If &lt;code&gt;MERGE&lt;/code&gt; didn't exist, you would have to create some &lt;code&gt;MATCH&lt;/code&gt; condition to say "if this node doesn't exist yet, create it". In the graphs for my project, all of the nodes and edges had to be unique.&lt;/p&gt;
+&lt;p&gt;Our &lt;strong&gt;first&lt;/strong&gt; implementation just contained those simple queries: Create a node and create an edge. That ended up being very slow (taking 40 seconds to create a graph with 1000 nodes and 1000 edges). So the &lt;strong&gt;second&lt;/strong&gt; thing we tried was creating each node and edge in the same query (as opposed to creating each individual node and edge within individual queries). Another thing we added was creating all nodes and edges first and then creating the remaining unconnected nodes at the end. We also tried adding an &lt;code&gt;INDEX&lt;/code&gt; to each node as well. This implementation was faster than the first, but still too slow for our needs. Our test graph (1000 nodes and 1000 edges) took roughly 30 seconds to create.&lt;/p&gt;
+&lt;p&gt;Then we found a query called a &lt;code&gt;CONSTRAINT&lt;/code&gt; which allows the user to create some logical rule for the graph database to follow. For us, it was to only accept unique nodes and edges. But this &lt;strong&gt;third&lt;/strong&gt; implementation also wasn't very fast. Finally we tried getting rid of both &lt;code&gt;INDEX&lt;/code&gt; and &lt;code&gt;CONSTRAINT&lt;/code&gt; to see if that was bogging anything down, but to no avail. Our &lt;strong&gt;fourth&lt;/strong&gt; implementation had failed us.&lt;/p&gt;
+&lt;p&gt;We then created a &lt;strong&gt;batch&lt;/strong&gt; implementation where we would batch multiple queries into one (a similar technique used on relational databases). Unfortunately this ended up being slower than our first implementation. Needless to say we were frustrated, but knew there must be a solution that Neo4j provides us.&lt;/p&gt;
+&lt;h2&gt;Pause for Consideration&lt;/h2&gt;
+&lt;p&gt;These timings may sound fast to someone with sufficiently small graphs, but it would take us nearly 10 days to create a single graph with 10s of millions of nodes and 100s of millions of edges (which was way too slow for our needs). Our particular application required streaming graph data to our server where we would need to create these large graphs in realtime (and 10 days was barely realtime). Also we noticed that creating the graphs slowed over time as the graph size grew, so our guestimate of 10 days was actually much smaller compared to what we experienced in reality.&lt;/p&gt;
+&lt;h2&gt;Creating Neo4j Graphs the Efficient Way&lt;/h2&gt;
+&lt;p&gt;After scouring the Internet for a day or so, we happened upon two query methods used to create graphs quickly: &lt;code&gt;UNWIND&lt;/code&gt; and &lt;code&gt;LOADCSV&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;One can think of &lt;code&gt;UNWIND&lt;/code&gt; as the proper way to use batching in Neo4j (like we had tried to emulate above for batching for relational databases). Immediately we saw fantastic results. The time it took to create a graph decreased by an order of magnitude (our 1000 node 1000 edge graph took seconds). Unfortunately during our evaluation of our project, it still was slower than realtime after a day or so of running it with our streaming data. It eventually caught up, but after several days of letting it run after our streaming data stopped after 2 weeks.&lt;/p&gt;
+&lt;p&gt;Finally we found the best implementation. &lt;code&gt;LOADCSV&lt;/code&gt; is by far the fastest way to create large graphs. It had been touted as being able
+to create a 30 million node graph in minutes &lt;a href="https://neo4j.com/blog/import-10m-stack-overflow-questions/"&gt;https://neo4j.com/blog/import-10m-stack-overflow-questions/&lt;/a&gt;. When we implemented using it ourselves it decreased our graph creation time down to 0.17 seconds. Another order of magnitude difference!&lt;/p&gt;
+&lt;p&gt;But we were also curious in knowing how much different types and sizes of graphs affected the creation time. Below are various timing bar charts of our results:&lt;/p&gt;
 &lt;h2&gt;10 nodes, 10 edges&lt;/h2&gt;
 &lt;p align="center"&gt;
   &lt;img src="/images/coding-fun/neo4j_fig/10x10.png"&gt;
@@ -209,56 +163,41 @@ timing bar charts of our results:&lt;/p&gt;
   &lt;img src="/images/coding-fun/neo4j_fig/10x1000.png"&gt;
 &lt;/p&gt;
 
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;If you're creating a large graph in Neo4j, use &lt;code&gt;LOADCSV&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;You can check out all of my source code used to perform my experiments to test for yourself:
-&lt;a href="https://github.com/evandowning/neo4j-benchmark"&gt;https://github.com/evandowning/neo4j-benchmark&lt;/a&gt;&lt;/p&gt;</content><category term="coding-fun"></category><category term="neo4j"></category></entry><entry><title>Converting Protonmail's VCF files to import to phone</title><link href="https://www.evandowning.com/converting-protonmails-vcf-files-to-import-to-phone.html" rel="alternate"></link><published>2019-05-19T00:00:00-04:00</published><updated>2019-05-19T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-05-19:/converting-protonmails-vcf-files-to-import-to-phone.html</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://protonmail.com"&gt;Protonmail&lt;/a&gt; captured my interest a few years ago as privacy-focused
-alternative to &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;But one of the problems I faced was my dependence on Google's &lt;a href="https://contacts.google.com"&gt;Contacts&lt;/a&gt;
-service which kept all of my contacts for me stored on my Android device.
-I wanted to move away from this as well …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://protonmail.com"&gt;Protonmail&lt;/a&gt; captured my interest a few years ago as privacy-focused
-alternative to &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;But one of the problems I faced was my dependence on Google's &lt;a href="https://contacts.google.com"&gt;Contacts&lt;/a&gt;
-service which kept all of my contacts for me stored on my Android device.
-I wanted to move away from this as well. But I also have an animosity towards
-having email on my phone.&lt;/p&gt;
-&lt;p&gt;So without installing Protonmail on my phone, how could I take my contacts stored on Protonmail
-and put them on my phone?&lt;/p&gt;
-&lt;p&gt;Well one obvious way was to export Protonmail's contacts to a &lt;a href="https://en.wikipedia.org/wiki/VCard"&gt;VCF&lt;/a&gt; file
-and import that onto my phone. Unfortunately, Protonmail's VCF file was using version 4.0,
-while my phone (Android version 8) was still stuck on VCF version 2.1. And I wasn't the
-only one with issues with converting VCF file format versions:&lt;/p&gt;
+&lt;p&gt;You can check out all of my source code used to perform my experiments to test for yourself: &lt;a href="https://github.com/evandowning/neo4j-benchmark"&gt;https://github.com/evandowning/neo4j-benchmark&lt;/a&gt;&lt;/p&gt;</content><category term="coding-fun"></category><category term="neo4j"></category></entry><entry><title>Converting Protonmail's VCF files to import to phone</title><link href="https://www.evandowning.com/converting-protonmails-vcf-files-to-import-to-phone.html" rel="alternate"></link><published>2019-05-19T00:00:00-04:00</published><updated>2019-05-19T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-05-19:/converting-protonmails-vcf-files-to-import-to-phone.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://protonmail.com"&gt;Protonmail&lt;/a&gt; captured my interest a few years ago as privacy-focused alternative to &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But one of the problems I faced was my dependence on Google's &lt;a href="https://contacts.google.com"&gt;Contacts&lt;/a&gt; service which kept all of my contacts for me stored on my Android device. I wanted to move away from this as well …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://protonmail.com"&gt;Protonmail&lt;/a&gt; captured my interest a few years ago as privacy-focused alternative to &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But one of the problems I faced was my dependence on Google's &lt;a href="https://contacts.google.com"&gt;Contacts&lt;/a&gt; service which kept all of my contacts for me stored on my Android device. I wanted to move away from this as well. But I also have an animosity towards having email on my phone.&lt;/p&gt;
+&lt;p&gt;So without installing Protonmail on my phone, how could I take my contacts stored on Protonmail and put them on my phone?&lt;/p&gt;
+&lt;p&gt;Well one obvious way was to export Protonmail's contacts to a &lt;a href="https://en.wikipedia.org/wiki/VCard"&gt;VCF&lt;/a&gt; file and import that onto my phone. Unfortunately, Protonmail's VCF file was using version 4.0, while my phone (Android version 8) was still stuck on VCF version 2.1. And I wasn't the only one with issues with converting VCF file format versions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://alessandrorossini.org/the-sad-story-of-the-vcard-format-and-its-lack-of-interoperability/"&gt;https://alessandrorossini.org/the-sad-story-of-the-vcard-format-and-its-lack-of-interoperability/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://android.stackexchange.com/questions/106888/what-vcard-formats-versions-and-encodings-are-supported-for-import"&gt;https://android.stackexchange.com/questions/106888/what-vcard-formats-versions-and-encodings-are-supported-for-import&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/nextcloud/contacts/issues/492"&gt;https://github.com/nextcloud/contacts/issues/492&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.tenorshare.com/icloud-tips/cannot-import-vcf-vcards-into-icloud-how-to-fix.html"&gt;https://www.tenorshare.com/icloud-tips/cannot-import-vcf-vcards-into-icloud-how-to-fix.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;But all of the tools I found went from version 2.1 to something newer. I couldn't find any converters
-from a newer version down to an older version.&lt;/p&gt;
-&lt;p&gt;Protonmail (at the time of this post) uses version 4.0.
-So I wrote a converter from version 4.0 (Protonmail) to version 2.1 (what Android still uses).&lt;/p&gt;
+&lt;p&gt;But all of the tools I found went from version 2.1 to something newer. I couldn't find any converters from a newer version down to an older version.&lt;/p&gt;
+&lt;p&gt;Protonmail (at the time of this post) uses version 4.0. So I wrote a converter from version 4.0 (Protonmail) to version 2.1 (what Android still uses).&lt;/p&gt;
 &lt;p&gt;You can find my converter here: &lt;a href="https://github.com/evandowning/vcf-converter"&gt;https://github.com/evandowning/vcf-converter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;So everytime my Protonmail contacts get updated, I export them to a VCF file,
-convert it to version 2.1, and transfer it to my Android device to be imported locally.&lt;/p&gt;
-&lt;p&gt;Enjoy.&lt;/p&gt;</content><category term="coding-fun"></category><category term="protonmail"></category><category term="vcf"></category></entry><entry><title>Datasets</title><link href="https://www.evandowning.com/datasets.html" rel="alternate"></link><published>2019-01-01T00:00:00-05:00</published><updated>2023-02-18T00:00:00-05:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-01-01:/datasets.html</id><summary type="html">&lt;p&gt;This is a good website for lots of general cyber security datasets: &lt;a href="http://www.secrepo.com/"&gt;http://www.secrepo.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Malware Samples&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;So everytime my Protonmail contacts get updated, I export them to a VCF file, convert it to version 2.1, and transfer it to my Android device to be imported locally.&lt;/p&gt;
+&lt;p&gt;Enjoy.&lt;/p&gt;</content><category term="coding-fun"></category><category term="protonmail"></category><category term="vcf"></category></entry><entry><title>Datasets</title><link href="https://www.evandowning.com/datasets.html" rel="alternate"></link><published>2019-01-01T00:00:00-05:00</published><updated>2023-02-18T00:00:00-05:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-01-01:/datasets.html</id><summary type="html">&lt;p&gt;This is a good website for lots of general cybersecurity datasets: &lt;a href="http://www.secrepo.com/"&gt;http://www.secrepo.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Malware Samples&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Large dataset: &lt;a href="https://github.com/sophos/SOREL-20M/"&gt;https://github.com/sophos/SOREL-20M&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Large dataset: &lt;a href="https://github.com/sophos/SOREL-20M"&gt;https://github.com/sophos/SOREL-20M&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Malware from 2010-today: &lt;a href="https://www.vx-underground.org/"&gt;https://www.vx-underground.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Gathering Data&lt;/strong&gt;:&lt;/p&gt;
+&lt;h2&gt;Gathering Data&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Static features for PE malware classification: &lt;a href="https://github.com/elastic/ember"&gt;https://github.com/elastic/ember&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dynamic features for clustering PE …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;This is a good website for lots of general cyber security datasets: &lt;a href="http://www.secrepo.com/"&gt;http://www.secrepo.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Malware Samples&lt;/strong&gt;:&lt;/p&gt;
+&lt;li&gt;Dynamic features for clustering PE malware …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;This is a good website for lots of general cybersecurity datasets: &lt;a href="http://www.secrepo.com/"&gt;http://www.secrepo.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Malware Samples&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Large dataset: &lt;a href="https://github.com/sophos/SOREL-20M/"&gt;https://github.com/sophos/SOREL-20M&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Large dataset: &lt;a href="https://github.com/sophos/SOREL-20M"&gt;https://github.com/sophos/SOREL-20M&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Malware from 2010-today: &lt;a href="https://www.vx-underground.org/"&gt;https://www.vx-underground.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Gathering Data&lt;/strong&gt;:&lt;/p&gt;
+&lt;h2&gt;Gathering Data&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Static features for PE malware classification: &lt;a href="https://github.com/elastic/ember"&gt;https://github.com/elastic/ember&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Dynamic features for clustering PE malware: &lt;a href="https://github.com/rieck/malheur"&gt;https://github.com/rieck/malheur&lt;/a&gt;&lt;/li&gt;
@@ -286,27 +225,29 @@ convert it to version 2.1, and transfer it to my Android device to be imported l
 &amp;quot;bananas&amp;quot;: [&amp;quot;and&amp;quot;]
 &amp;quot;and&amp;quot;: [&amp;quot;apples&amp;quot;, &amp;quot;oranges.&amp;quot;]
 &amp;quot;apples&amp;quot;: [&amp;quot;and&amp;quot;]
-As you can see, the chain &amp;quot;and&amp;quot; has two different words it sees after it in the sentence.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;As you can see, the chain "and" has two different words it sees after it in the sentence.&lt;/p&gt;
 &lt;p&gt;So, there's a 50% probability that "apples" or "oranges." will come after the word "and" according to this sentence. However, with the other words there is a 100% probability that the next word will be the only one contained in their list.&lt;/p&gt;
 &lt;p&gt;You can imagine how more text and chains with lengths greater than 1 will lead to more random and original sentences.&lt;/p&gt;
 &lt;p&gt;Suppose we don't have any separation. Doing this by character makes it more interesting. It will generate more random words, some misspelled because of the random aspects of chain, and will make less semantic sense than creating chains via words (characters separated by a space).&lt;/p&gt;
-&lt;p&gt;Here is a link to it: &lt;a href="https://github.com/evandowning/markov-text-generator"&gt;https://github.com/evandowning/markov-text-generator&lt;/a&gt;&lt;/p&gt;</content><category term="coding-fun"></category><category term="markov"></category></entry><entry><title>Suggested Reads</title><link href="https://www.evandowning.com/suggested-reads.html" rel="alternate"></link><published>2015-01-01T00:00:00-05:00</published><updated>2023-02-18T00:00:00-05:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2015-01-01:/suggested-reads.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Read these first&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Here is a link to it: &lt;a href="https://github.com/evandowning/markov-text-generator"&gt;https://github.com/evandowning/markov-text-generator&lt;/a&gt;&lt;/p&gt;</content><category term="coding-fun"></category><category term="markov"></category></entry><entry><title>Suggested Reads</title><link href="https://www.evandowning.com/suggested-reads.html" rel="alternate"></link><published>2015-01-01T00:00:00-05:00</published><updated>2023-02-18T00:00:00-05:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2015-01-01:/suggested-reads.html</id><summary type="html">&lt;h2&gt;Read these first&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;How to read a paper (2007): &lt;a href="https://dl.acm.org/doi/pdf/10.1145/1273445.1273458"&gt;link&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;How (and how not) to write a good systems paper: &lt;a href="https://www.usenix.org/conferences/author-resources/how-and-how-not-write-good-systems-paper"&gt;link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Papers&lt;/strong&gt;: You can find all of these on &lt;a href="https://scholar.google.com/"&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Papers&lt;/h2&gt;
+&lt;p&gt;You can find all of these on &lt;a href="https://scholar.google.com/"&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;An intrusion-detection model (1987) - Denning&lt;/li&gt;
 &lt;li&gt;The SRI IDES statistical anomaly detector (1991) - Javitz and Valdes&lt;/li&gt;
-&lt;li&gt;Self-nonself discrimination in a …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Read these first&lt;/strong&gt;:&lt;/p&gt;
+&lt;li&gt;Self-nonself discrimination in a …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Read these first&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;How to read a paper (2007): &lt;a href="https://dl.acm.org/doi/pdf/10.1145/1273445.1273458"&gt;link&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;How (and how not) to write a good systems paper: &lt;a href="https://www.usenix.org/conferences/author-resources/how-and-how-not-write-good-systems-paper"&gt;link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Papers&lt;/strong&gt;: You can find all of these on &lt;a href="https://scholar.google.com/"&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Papers&lt;/h2&gt;
+&lt;p&gt;You can find all of these on &lt;a href="https://scholar.google.com/"&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;An intrusion-detection model (1987) - Denning&lt;/li&gt;
 &lt;li&gt;The SRI IDES statistical anomaly detector (1991) - Javitz and Valdes&lt;/li&gt;
@@ -343,14 +284,15 @@ As you can see, the chain &amp;quot;and&amp;quot; has two different words it see
 &lt;li&gt;Everybody’s Got ML, Tell Me What Else You Have: Practitioners' Perception of ML-Based Security Tools and Explanations (2023)&lt;/li&gt;
 &lt;li&gt;Humans vs. Machines in Malware Classification (2023)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Top-tier academic cybersecurity conferences&lt;/strong&gt;: &lt;a href="https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"&gt;source1&lt;/a&gt; &amp;amp; &lt;a href="https://portal.core.edu.au/conf-ranks/?search=security&amp;amp;by=all&amp;amp;source=all&amp;amp;sort=arank&amp;amp;page=1"&gt;source2&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Academic cybersecurity conferences&lt;/h2&gt;
+&lt;p&gt;Tier 1: &lt;a href="https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"&gt;source1&lt;/a&gt; &amp;amp; &lt;a href="https://portal.core.edu.au/conf-ranks/?search=security&amp;amp;by=all&amp;amp;source=all&amp;amp;sort=arank&amp;amp;page=1"&gt;source2&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;S&amp;amp;P: &lt;a href="https://www.ieee-security.org/TC/SP-Index.html"&gt;https://www.ieee-security.org/TC/SP-Index.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;USENIX Security Symposium: &lt;a href="https://www.usenix.org/conferences"&gt;https://www.usenix.org/conferences&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;CCS: &lt;a href="https://www.sigsac.org/ccs.html"&gt;https://www.sigsac.org/ccs.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;NDSS: &lt;a href="https://www.ndss-symposium.org/"&gt;https://www.ndss-symposium.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Mailing lists&lt;/strong&gt;:&lt;/p&gt;
+&lt;h2&gt;Mailing lists&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/oldnewthing/"&gt;https://devblogs.microsoft.com/oldnewthing/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://krebsonsecurity.com/"&gt;https://krebsonsecurity.com/&lt;/a&gt;&lt;/li&gt;
@@ -365,7 +307,7 @@ As you can see, the chain &amp;quot;and&amp;quot; has two different words it see
 &lt;li&gt;&lt;a href="https://www.vmray.com/cyber-security-blog/"&gt;https://www.vmray.com/cyber-security-blog/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://redcanary.com/blog/"&gt;https://redcanary.com/blog/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;RSS feeds&lt;/strong&gt;:&lt;/p&gt;
+&lt;h2&gt;RSS feeds&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://exploit.in/"&gt;https://exploit.in/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ctftime.org/"&gt;https://ctftime.org/&lt;/a&gt;&lt;/li&gt;
@@ -376,7 +318,7 @@ As you can see, the chain &amp;quot;and&amp;quot; has two different words it see
 &lt;li&gt;&lt;a href="https://blog.virustotal.com/"&gt;https://blog.virustotal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blogs.vmware.com/security/"&gt;https://blogs.vmware.com/security/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Books&lt;/strong&gt;:&lt;/p&gt;
+&lt;h2&gt;Books&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Practical Malware Analysis (Sikorski and Honig)&lt;/li&gt;
 &lt;li&gt;Linkers &amp;amp; Loaders (Levine)&lt;/li&gt;
@@ -387,4 +329,7 @@ As you can see, the chain &amp;quot;and&amp;quot; has two different words it see
 &lt;li&gt;Computer Networking (Kurose and Ross)&lt;/li&gt;
 &lt;li&gt;Introduction to the Theory of Computation (Sipser)&lt;/li&gt;
 &lt;li&gt;Style: Lessons in Clarity and Grace (Colomb)&lt;/li&gt;
+&lt;li&gt;The Lean Startup (Eric Ries)&lt;/li&gt;
+&lt;li&gt;Pro Git (Chacon and Straub)&lt;/li&gt;
+&lt;li&gt;Fluent Python (Ramalho)&lt;/li&gt;
 &lt;/ul&gt;</content><category term="misc"></category></entry></feed>

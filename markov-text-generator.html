@@ -47,15 +47,7 @@
   <link href="https://www.evandowning.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Evan Downing Atom">
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C0W4PHDF8Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-C0W4PHDF8Y');
-</script>
  
 
 <meta name="author" content="Evan Downing" />
@@ -200,9 +192,9 @@
 &quot;bananas&quot;: [&quot;and&quot;]
 &quot;and&quot;: [&quot;apples&quot;, &quot;oranges.&quot;]
 &quot;apples&quot;: [&quot;and&quot;]
-As you can see, the chain &quot;and&quot; has two different words it sees after it in the sentence.
 </code></pre></div>
 
+<p>As you can see, the chain "and" has two different words it sees after it in the sentence.</p>
 <p>So, there's a 50% probability that "apples" or "oranges." will come after the word "and" according to this sentence. However, with the other words there is a 100% probability that the next word will be the only one contained in their list.</p>
 <p>You can imagine how more text and chains with lengths greater than 1 will lead to more random and original sentences.</p>
 <p>Suppose we don't have any separation. Doing this by character makes it more interesting. It will generate more random words, some misspelled because of the random aspects of chain, and will make less semantic sense than creating chains via words (characters separated by a space).</p>

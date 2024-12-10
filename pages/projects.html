@@ -13,13 +13,14 @@
     <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/stylesheet/style.min.css">
 
     <link id="dark-theme-style" rel="stylesheet" type="text/css"
-        disabled="disabled"
+          media="(prefers-color-scheme: dark)"
     href="https://www.evandowning.com/theme/stylesheet/dark-theme.min.css">
 
     <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
-            disabled="disabled"
+              media="(prefers-color-scheme: dark)"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
 
 
@@ -46,23 +47,15 @@
   <link href="https://www.evandowning.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Evan Downing Atom">
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C0W4PHDF8Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-C0W4PHDF8Y');
-</script>
  
 
     <meta name="author" content="Evan Downing" />
-    <meta name="description" content="Evan's personal website." />
+    <meta name="description" content="" />
   <meta property="og:site_name" content="Evan Downing"/>
   <meta property="og:type" content="blog"/>
   <meta property="og:title" content="Evan Downing"/>
-  <meta property="og:description" content="Evan's personal website."/>
+  <meta property="og:description" content=""/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="https://www.evandowning.com"/>
   <meta property="og:image" content="https://www.evandowning.com/images/profile.png">
@@ -73,7 +66,7 @@
 
 
 </head>
-<body class="light-theme">
+<body >
 
 <aside>
   <div>
@@ -170,34 +163,28 @@
 <ul>
 <li>All Blogs</li>
 <li>Click "categories" at the top of this page.</li>
-<li>Selected Blogs<ul>
+<li>Selected Blogs</li>
 <li><a href="https://www.evandowning.com/tag/usable-malware.html">Usable Malware</a></li>
 <li><a href="https://www.evandowning.com/suggested-reads.html">Suggested Reads</a></li>
 <li><a href="https://www.evandowning.com/datasets.html">Datasets</a></li>
 <li><a href="https://www.evandowning.com/things-i-use.html">Things I Use</a></li>
 <li><a href="https://www.evandowning.com/workflow.html">Workflow</a></li>
 </ul>
-</li>
-</ul>
 <h4>Buttercup - 2024</h4>
 <ul>
 <li>Created contextualizer component for Trail of Bits' AIxCC Cyber Reasoning System (CRS) entry Buttercup.</li>
-<li><strong>Website</strong>:<ul>
+<li><strong>Website</strong>:</li>
 <li><a href="https://aicyberchallenge.com/">https://aicyberchallenge.com/</a></li>
 <li><a href="https://blog.trailofbits.com/category/aixcc/">Trail of Bits blogs</a></li>
-</ul>
-</li>
 </ul>
 <h4>VulChecker - 2023</h4>
 <ul>
 <li>Helped identify and run baselines to compare to VulChecker.</li>
 <li><strong>Publication</strong>: VulChecker: Graph-based Vulnerability Localization in Source Code (USENIX 2023)</li>
-<li><strong>Repositories</strong>:<ul>
+<li><strong>Repositories</strong>:</li>
 <li><a href="https://github.com/ymirsky/VulChecker">https://github.com/ymirsky/VulChecker</a></li>
 <li><a href="https://github.com/evandowning/VulDeeLocator">https://github.com/evandowning/VulDeeLocator</a></li>
 <li><a href="https://github.com/evandowning/SySeVR">https://github.com/evandowning/SySeVR</a></li>
-</ul>
-</li>
 <li><strong>Techniques</strong>: Python</li>
 </ul>
 <h4>BDHunter - 2021</h4>
@@ -216,59 +203,43 @@
 <ul>
 <li>Assisted a post-doc and PhD student in designing a drone intrusion detection methodology based on external environmental data (e.g., sound of the propellers spinning).</li>
 <li>Soldered and installed a Pi-connect, Raspberry pi, and microphone array onto the drone to collect telemetry data.</li>
-<li><strong>Website</strong>:<ul>
+<li><strong>Website</strong>:</li>
 <li><a href="https://www.tii.ae/">https://www.tii.ae/</a></li>
-</ul>
-</li>
-<li><strong>Repositories</strong>:<ul>
+<li><strong>Repositories</strong>:</li>
 <li><a href="https://github.com/tiiuae">https://github.com/tiiuae</a></li>
 <li><a href="https://github.com/evandowning/usb_4_mic_array">https://github.com/evandowning/usb_4_mic_array</a></li>
 <li><a href="https://github.com/evandowning/Pi-Connect">https://github.com/evandowning/Pi-Connect</a></li>
-</ul>
-</li>
 <li><strong>Techniques</strong>: Python</li>
 </ul>
 <h4>MLSploit (Intel ARSA) - 2017-2019</h4>
 <ul>
 <li>Assisted in the design and development of MLSploit, a flexible framework enabling machine learning model training and generating attacks to evade those models.</li>
 <li>Utilized Python, Scikit-learn, and Keras to create various malware detection models and employed binary rewriting for executable malware that dynamically evades detection.</li>
-<li><strong>Websites</strong>:<ul>
+<li><strong>Websites</strong>:</li>
 <li><a href="https://istc-arsa.iisp.gatech.edu/">https://istc-arsa.iisp.gatech.edu/</a></li>
 <li><a href="https://mlsploit.github.io/">https://mlsploit.github.io/</a></li>
-</ul>
-</li>
-<li><strong>Publications</strong>:<ul>
+<li><strong>Publications</strong>:</li>
 <li>MLsploit: A Framework for Interactive Experimentation with Adversarial Machine Learning Research (KDD extended abstract 2019)</li>
 <li>To believe or not to believe: Validating experimentation fidelity for dynamic malware analysis (CVPR workshop 2019)</li>
-</ul>
-</li>
-<li><strong>Repositories</strong>:<ul>
+<li><strong>Repositories</strong>:</li>
 <li><a href="https://github.com/mlsploit">https://github.com/mlsploit</a></li>
 <li><a href="https://github.com/evandowning/mlsploit-pe">https://github.com/evandowning/mlsploit-pe</a></li>
 <li><a href="https://github.com/evandowning/mlsploit-network">https://github.com/evandowning/mlsploit-network</a></li>
 <li><a href="https://github.com/evandowning/mlsploit-malwarelab">https://github.com/evandowning/mlsploit-malwarelab</a></li>
-</ul>
-</li>
 <li><strong>Techniques</strong>: Python, Scikit-learn, Keras, binary rewriting, bash</li>
 </ul>
 <h4>THEIA (DARPA Transparent Computing) - 2015-2019</h4>
 <ul>
 <li>Created a graphical database capable of receiving real-time host-based information from Linux end-hosts.</li>
-<li><strong>Websites</strong>:<ul>
+<li><strong>Websites</strong>:</li>
 <li><a href="https://www.darpa.mil/program/transparent-computing">https://www.darpa.mil/program/transparent-computing</a></li>
 <li><a href="https://github.com/darpa-i2o/Transparent-Computing">https://github.com/darpa-i2o/Transparent-Computing</a></li>
-</ul>
-</li>
-<li><strong>Publications</strong>:<ul>
+<li><strong>Publications</strong>:</li>
 <li>Efficient Data Flow Tagging and Tracking for Refinable Cross-host Attack Investigation (USENIX 2018)</li>
 <li>RAIN: Refinable Attack Investigation with On-demand Inter-Process Information Flow Tracking (CCS 2017)</li>
-</ul>
-</li>
-<li><strong>Repositories</strong>:<ul>
+<li><strong>Repositories</strong>:</li>
 <li><a href="https://github.com/redspot/theia-ki-target-agent">https://github.com/redspot/theia-ki-target-agent</a></li>
 <li><a href="https://github.com/evandowning/theia-database">https://github.com/evandowning/theia-database</a></li>
-</ul>
-</li>
 <li><strong>Techniques</strong>: C++, Python, Neo4j</li>
 </ul>
 <h4>Oak Ridge National Laboratory - 06/2013-09/2013</h4>
@@ -281,11 +252,9 @@
 <ul>
 <li>Developed a JavaScript-based API for flexible scatterplot creation, to be utilized in a Human-Computer Interaction (HCI) study for Centers for Medicare &amp; Medicaid Services (CMS).</li>
 <li>Designed and developed visual interfaces for projects analyzing computer network traffic for malicious and anomalous patterns.</li>
-<li><strong>Publications</strong>:<ul>
+<li><strong>Publications</strong>:</li>
 <li>situ: Situational Understanding and Discovery for Cyber Attacks (2012)</li>
 <li>NV: Nessus Vulnerability Visualization for the Web (VizSec 2012)</li>
-</ul>
-</li>
 <li><strong>Techniques</strong>: JavaScript, CSS, HTML</li>
 </ul>
 <h4>Oak Ridge National Laboratory - 05/2011-07/2011</h4>
@@ -305,7 +274,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
   <script id="dark-theme-script"
           src="https://www.evandowning.com/theme/dark-theme/dark-theme.min.js"
-          data-enable-auto-detect-theme="False"
+          data-enable-auto-detect-theme="True"
           data-default-theme="light"
           type="text/javascript">
   </script>
@@ -329,7 +298,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "name": " Evan Downing ",
   "url" : "https://www.evandowning.com",
   "image": "https://www.evandowning.com/images/profile.png",
-  "description": "Evan's personal website."
+  "description": ""
 }
 </script>
 </body>

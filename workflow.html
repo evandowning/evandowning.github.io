@@ -13,13 +13,14 @@
     <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/stylesheet/style.min.css">
 
     <link id="dark-theme-style" rel="stylesheet" type="text/css"
-        disabled="disabled"
+          media="(prefers-color-scheme: dark)"
     href="https://www.evandowning.com/theme/stylesheet/dark-theme.min.css">
 
     <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
-            disabled="disabled"
+              media="(prefers-color-scheme: dark)"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
 
 
@@ -46,15 +47,7 @@
   <link href="https://www.evandowning.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Evan Downing Atom">
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C0W4PHDF8Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-C0W4PHDF8Y');
-</script>
  
 
 <meta name="author" content="Evan Downing" />
@@ -78,7 +71,7 @@
 
 
 </head>
-<body class="light-theme">
+<body >
 
 <aside>
   <div>
@@ -172,8 +165,6 @@
     <p>
       Posted on November 11, 2024 in <a href="https://www.evandowning.com/category/misc.html">misc</a>
 
-        &#8226; Last modified on November 13, 2024
-
         &#8226; 3 min read
     </p>
   </header>
@@ -189,7 +180,7 @@
 <h2>Gutcheck work</h2>
 <ul>
 <li>Review each project's motivation, goals, "secret sauce", current status, and timeline to finish. Do they make sense?</li>
-<li><a href="https://www.darpa.mil/work-with-us/heilmeier-catechism">Heilmeier Catechism</a><ul>
+<li><a href="https://www.darpa.mil/work-with-us/heilmeier-catechism">Heilmeier Catechism</a></li>
 <li>What are you trying to do? Articulate your objectives using absolutely no jargon.</li>
 <li>How is it done today, and what are the limits of current practice?</li>
 <li>What is new in your approach and why do you think it will be successful?</li>
@@ -198,17 +189,13 @@
 <li>How much will it cost?</li>
 <li>How long will it take?</li>
 <li>What are the midterm and final "exams" to check for success?</li>
-</ul>
-</li>
-<li>Writing papers<ul>
+<li>Writing papers</li>
 <li>What problem are you solving?</li>
 <li>Why is it an important problem?</li>
 <li>What are the existing approaches? Why are they not sufficient?</li>
 <li>What is your approach? Why is it more effective, efficient, novel, etc?</li>
 <li>How do you implement it? Why is that a good and practical way?</li>
 <li>How do you evaluate your approach and system? Why is the evaluation fair and realistic? How do the results support the goals and claims of your approach and system?</li>
-</ul>
-</li>
 </ul>
 <h2>Coding</h2>
 <ul>
@@ -233,14 +220,12 @@
 <li>For each project, have an end-goal in mind and an end-date. I.e., what specifically do you want to accomplish by when?</li>
 <li>Everyone self-updates their progress for you to present at status updates, as well as allows you to ask and answer questions there (an internal Google Doc).</li>
 <li>For each status update, create slides and meeting meetings (shared with the client). Have action items they agree to (ranked by importance) for the next meeting.</li>
-<li>For each status update presentation, create ~6 slides to share with the client. That way, it is easy for them to track your progress over time.<ul>
+<li>For each status update presentation, create ~6 slides to share with the client. That way, it is easy for them to track your progress over time.</li>
 <li>Agenda</li>
 <li>Running list of Insights and Contributions</li>
 <li>2-3 updates (visual/graph/numbers of results)</li>
 <li>Insights for each update -- What did I learn? What is novel/interesting?</li>
 <li>Next steps -- From what I learned last week, what will I do this week?</li>
-</ul>
-</li>
 <li>If you are away on leave, assign someone to lead in your place, and notify the client who the lead contact will be until you get back.</li>
 <li>Overbill on the front end of a project, so you can get far enough along that you can divert your attention if needed (e.g., a proposal needs your attention or you have meetings/trainings/other responsibilities to take care of later).</li>
 <li>Every time there is a problem or something does not go according to plan, ask the Five Whys (from The Lean Startup book). Ask "why" 5 times, and you will usually identify the root cause of an issue. Fix the fifth (final) "why" first, then fix the other "whys" if they pop up again. Blame the problem, not the person. If someone makes a mistake, it is our fault it was easy for them to make that mistake.</li>
@@ -277,7 +262,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
   <script id="dark-theme-script"
           src="https://www.evandowning.com/theme/dark-theme/dark-theme.min.js"
-          data-enable-auto-detect-theme="False"
+          data-enable-auto-detect-theme="True"
           data-default-theme="light"
           type="text/javascript">
   </script>
@@ -301,7 +286,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "name": " Evan Downing ",
   "url" : "https://www.evandowning.com",
   "image": "https://www.evandowning.com/images/profile.png",
-  "description": "Evan's personal website."
+  "description": ""
 }
 </script>
 </body>

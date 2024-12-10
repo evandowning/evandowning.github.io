@@ -13,14 +13,13 @@
     <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/stylesheet/style.min.css">
 
     <link id="dark-theme-style" rel="stylesheet" type="text/css"
-          media="(prefers-color-scheme: dark)"
+        disabled="disabled"
     href="https://www.evandowning.com/theme/stylesheet/dark-theme.min.css">
 
     <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
-              media="(prefers-color-scheme: dark)"
+            disabled="disabled"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
 
 
@@ -47,7 +46,15 @@
   <link href="https://www.evandowning.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Evan Downing Atom">
 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C0W4PHDF8Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-C0W4PHDF8Y');
+</script>
  
 
 <meta name="author" content="Evan Downing" />
@@ -72,7 +79,7 @@
 
 
 </head>
-<body >
+<body class="light-theme">
 
 <aside>
   <div>
@@ -166,6 +173,8 @@
     <p>
       Posted on January 16, 2016 in <a href="https://www.evandowning.com/category/coding-fun.html">coding-fun</a>
 
+        &#8226; Last modified on January 16, 2016
+
         &#8226; 2 min read
     </p>
   </header>
@@ -223,7 +232,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
   <script id="dark-theme-script"
           src="https://www.evandowning.com/theme/dark-theme/dark-theme.min.js"
-          data-enable-auto-detect-theme="True"
+          data-enable-auto-detect-theme="False"
           data-default-theme="light"
           type="text/javascript">
   </script>
@@ -247,7 +256,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "name": " Evan Downing ",
   "url" : "https://www.evandowning.com",
   "image": "https://www.evandowning.com/images/profile.png",
-  "description": ""
+  "description": "Evan's personal website."
 }
 </script>
 </body>

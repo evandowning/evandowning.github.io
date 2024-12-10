@@ -9,6 +9,7 @@ Title: Projects
     * [Suggested Reads](https://www.evandowning.com/suggested-reads.html)
     * [Datasets](https://www.evandowning.com/datasets.html)
     * [Things I Use](https://www.evandowning.com/things-i-use.html)
+    * [Workflow](https://www.evandowning.com/workflow.html)
 
 #### Buttercup - 2024
 

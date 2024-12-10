@@ -1,6 +1,6 @@
 Title: Suggested Reads
 Date: 2015-01-01
-Modified: 2023-02-18
+Modified: 2024-11-13
 
 ## Read these first
 
@@ -80,6 +80,7 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 * <https://signal.org/blog/>
 * <https://blog.virustotal.com/>
 * <https://blogs.vmware.com/security/>
+* <https://blog.trailofbits.com/>
 
 ## Books
 
@@ -95,3 +96,4 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 * The Lean Startup (Eric Ries)
 * Pro Git (Chacon and Straub)
 * Fluent Python (Ramalho)
+* Mini Farming: Self-Sufficiency on 1/4 Acre (Brett Markham)

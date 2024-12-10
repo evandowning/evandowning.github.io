@@ -5,6 +5,7 @@ SITEURL = "http://localhost:8000"
 SITENAME = "Evan Downing"
 SITETITLE = "Evan Downing"
 SITESUBTITLE = "Cybersecurity Researcher"
+SITEDESCRIPTION = "Evan's personal website."
 SITELOGO = SITEURL + "/images/profile.png"
 FAVICON = SITEURL + "/images/favicon.ico"
 BROWSER_COLOR = "#333333"
@@ -17,10 +18,11 @@ PATH = "content"
 OUTPUT_PATH = "blog/"
 TIMEZONE = "America/New_York"
 
-PLUGIN_PATHS = ["../pelican-plugins"]
-PLUGINS = ["post_stats"]
-
 DISABLE_URL_HASH = True
+
+PLUGIN_PATHS = ["../pelican-plugins"]
+
+PLUGINS = ["post_stats", "deadlinks"]
 
 I18N_TEMPLATES_LANG = "en"
 DEFAULT_LANG = "en"
@@ -80,7 +82,19 @@ EXTRA_PATH_METADATA = {
 
 CUSTOM_CSS = "static/custom.css"
 
-THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR = "light"
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = False
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
 USE_LESS = True
+
+ALWAYS_MODIFIED = True
+
+DEADLINK_OPTS = {
+    'archive':  True,
+    'classes': ['custom-class1', 'disabled'],
+    'labels':   True,
+    'timeout_duration_ms': 1000,
+    'timeout_is_error':    False,
+}
+

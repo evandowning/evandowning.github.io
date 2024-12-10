@@ -32,16 +32,18 @@ Modified: 2024-11-11
 ## Analysis Tools
 
 * Dynamic analysis:
-  * Automated Sandbox: [CAPEv2](https://github.com/kevoreilly/CAPEv2)
-  * Honeypot: [cowrie](https://github.com/cowrie/cowrie)
-  * Debugging on Windows: [x64dbg](https://github.com/x64dbg/x64dbg)
-  * Debugging on GNU/Linux: [gdb](https://www.sourceware.org/gdb/)
-  * Network traffic collection & analysis: [Wireshark](https://www.wireshark.org/)
-  * Memory forensics: [Volatility](https://github.com/volatilityfoundation/volatility3)
+    * Automated Sandbox: [CAPEv2](https://github.com/kevoreilly/CAPEv2)
+    * Honeypot: [cowrie](https://github.com/cowrie/cowrie)
+    * Debugging on Windows: [x64dbg](https://github.com/x64dbg/x64dbg)
+    * Debugging on GNU/Linux: [gdb](https://www.sourceware.org/gdb/) ([gdbinit](https://github.com/evandowning/Gdbinit/tree/develop))
+    * Network traffic collection & analysis: [Wireshark](https://www.wireshark.org/)
+    * Memory forensics: [Volatility](https://github.com/volatilityfoundation/volatility3)
 
 * Static analysis:
   * Unpacking: [unipacker](https://github.com/unipacker/unipacker)
   * Disassembling & Decompiling: [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
+
+* Pentesting framework: [kali](https://www.kali.org/)
 
 ## LLM Tools
 

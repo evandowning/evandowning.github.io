@@ -1,10 +1,10 @@
 Title: About
 
-Evan Downing is a cybersecurity researcher whose primary interests are software and machine learning assurance. In the past, his interests included malware analysis & detection, and intrusion detection.
+Evan Downing is a researcher whose interests lie at the intersection of cybersecurity and machine learning.
 
-His research explores how to improve security analysts' workflow efficiency using machine learning for both automation and improved accuracy.
+His prior research explores how to improve malware analysts' workflow efficiency using machine learning for both automation and improved accuracy. His current research explores machine learning assurance and auditing.
 
-His goal is to build tools that analysts want to use every day, and bring them into the decision-making process of machine learning.
+His goal is to build tools that security analysts want to use every day, and bring them into the decision-making process of machine learning.
 
 His Erdős number is 4: Evan Downing -> Wenke Lee -> Richard Lipton -> Noga Alon -> Paul Erdős
 

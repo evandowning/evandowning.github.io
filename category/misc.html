@@ -13,14 +13,13 @@
     <link rel="stylesheet" type="text/css" href="https://www.evandowning.com/theme/stylesheet/style.min.css">
 
     <link id="dark-theme-style" rel="stylesheet" type="text/css"
-          media="(prefers-color-scheme: dark)"
+        disabled="disabled"
     href="https://www.evandowning.com/theme/stylesheet/dark-theme.min.css">
 
     <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
-              media="(prefers-color-scheme: dark)"
+            disabled="disabled"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           href="https://www.evandowning.com/theme/pygments/monokai.min.css">
 
 
@@ -51,11 +50,11 @@
  
 
     <meta name="author" content="Evan Downing" />
-    <meta name="description" content="" />
+    <meta name="description" content="Evan's personal website." />
   <meta property="og:site_name" content="Evan Downing"/>
   <meta property="og:type" content="blog"/>
   <meta property="og:title" content="Evan Downing"/>
-  <meta property="og:description" content=""/>
+  <meta property="og:description" content="Evan's personal website."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="https://www.evandowning.com"/>
   <meta property="og:image" content="https://www.evandowning.com/images/profile.png">
@@ -64,7 +63,7 @@
 
 
 </head>
-<body >
+<body class="light-theme">
 
 <aside>
   <div>
@@ -194,15 +193,17 @@
   <div>
       <div><h2>Personal</h2>
 <ul>
-<li>System</li>
+<li>
+<p>System</p>
+<ul>
 <li>Work Laptop: Apple MacBook Pro</li>
 <li>Mobile: Google Pixel</li>
-<li>
-<p>DJ Laptop: Apple MacBook Air</p>
+<li>DJ Laptop: Apple MacBook Air</li>
+</ul>
 </li>
 <li>
 <p>Software/Service</p>
-</li>
+<ul>
 <li>Web browser: <a href="https://brave.com/">Brave Browser</a></li>
 <li>Private email/calendar/drive/vpn/password manager: <a href="https://proton.me/">Proton</a></li>
 <li>Private messaging: <a href="https://signal.org/">Signal</a></li>
@@ -211,7 +212,7 @@
 <li>Creating figures: <a href="https://inkscape.org/">Inkscape</a></li>
 <li>Paper organizer: <a href="https://www.zotero.org/">Zotero</a></li>
 <li>Download video/audio: <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a></li>
-<li>Genealogy: <a href="https://gramps-project.org/blog/">gramps …</a></li></ul></div>
+<li>Genealogy: <a href="https://gramps-project.org/blog/">gramps …</a></li></ul></li></ul></div>
         <br>
         <a class="btn"
            href="https://www.evandowning.com/things-i-use.html">
@@ -256,21 +257,22 @@
       Posted on January 01, 2015 in <a href="https://www.evandowning.com/category/misc.html">misc</a>
 
 
-        &#8226; 2 min read
+        &#8226; 5 min read
     </p>
   </header>
   <div>
       <div><h2>Read these first</h2>
 <ul>
-<li>How to read a paper (2007): <a href="https://dl.acm.org/doi/pdf/10.1145/1273445.1273458">link</a></li>
-<li>How (and how not) to write a good systems paper: <a href="https://www.usenix.org/conferences/author-resources/how-and-how-not-write-good-systems-paper">link</a></li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/1273445.1273458">How to read a paper (2007)</a></li>
+<li><a href="https://www.usenix.org/conferences/author-resources/how-and-how-not-write-good-systems-paper">How (and how not) to write a good systems paper</a></li>
+<li><a href="https://syedirfanhyder.blogspot.com/2017/08/what-is-problem-statement-and-its-role-in-phd-research.html">Writing a Problem Statement</a></li>
+<li><a href="https://syedirfanhyder.blogspot.com/2017/08/what-is-thesis-statement-how-to-write.html">Writing a Thesis Statement</a></li>
+<li><a href="https://docs.google.com/document/d/1KCSXYmInnBrOnFw5y3kQdNluLTYKt-jF1psyviNAeag/">Research as a Stochastic Decision Process</a></li>
 </ul>
 <h2>Papers</h2>
 <p>You can find all of these on <a href="https://scholar.google.com/">Google Scholar</a></p>
 <ul>
-<li>An intrusion-detection model (1987) - Denning</li>
-<li>The SRI IDES statistical anomaly detector (1991) - Javitz and Valdes</li>
-<li>Self-nonself discrimination in a …</li></ul></div>
+<li>Computer security threat monitoring and surveillance (1980 …</li></ul></div>
         <br>
         <a class="btn"
            href="https://www.evandowning.com/suggested-reads.html">
@@ -294,7 +296,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
   <script id="dark-theme-script"
           src="https://www.evandowning.com/theme/dark-theme/dark-theme.min.js"
-          data-enable-auto-detect-theme="True"
+          data-enable-auto-detect-theme="False"
           data-default-theme="light"
           type="text/javascript">
   </script>
@@ -318,7 +320,7 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "name": " Evan Downing ",
   "url" : "https://www.evandowning.com",
   "image": "https://www.evandowning.com/images/profile.png",
-  "description": ""
+  "description": "Evan's personal website."
 }
 </script>
 </body>

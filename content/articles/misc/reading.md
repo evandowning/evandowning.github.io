@@ -50,10 +50,10 @@ You can find all of these on [Google Scholar](https://scholar.google.com/)
 
 Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [source2](https://portal.core.edu.au/conf-ranks/?search=security&by=all&source=all&sort=arank&page=1)
 
-  * S&P: <https://www.ieee-security.org/TC/SP-Index.html>
-  * USENIX Security Symposium: <https://www.usenix.org/conferences>
-  * CCS: <https://www.sigsac.org/ccs.html>
-  * NDSS: <https://www.ndss-symposium.org/>
+* S&P: <https://www.ieee-security.org/TC/SP-Index.html>
+* USENIX Security Symposium: <https://www.usenix.org/conferences>
+* CCS: <https://www.sigsac.org/ccs.html>
+* NDSS: <https://www.ndss-symposium.org/>
 
 ## Mailing lists
 

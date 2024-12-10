@@ -5,21 +5,21 @@ Modified: 2024-11-11
 ## Personal
 
 * System
-    * Work Laptop: Apple MacBook Pro
-    * Mobile: Google Pixel
-    * DJ Laptop: Apple MacBook Air
+  * Work Laptop: Apple MacBook Pro
+  * Mobile: Google Pixel
+  * DJ Laptop: Apple MacBook Air
 
 * Software/Service
-    * Web browser: [Brave Browser](https://brave.com/)
-    * Private email/calendar/drive/vpn/password manager: [Proton](https://proton.me/)
-    * Private messaging: [Signal](https://signal.org/)
-    * Multi-factor authentication: [YubiKey](https://www.yubico.com/)
-    * Writing papers: [Overleaf](https://www.overleaf.com/)
-    * Creating figures: [Inkscape](https://inkscape.org/)
-    * Paper organizer: [Zotero](https://www.zotero.org/)
-    * Download video/audio: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-    * Genealogy: [gramps](https://gramps-project.org/blog/)
-    * Tor: [Tor Browser](https://www.torproject.org/)
+  * Web browser: [Brave Browser](https://brave.com/)
+  * Private email/calendar/drive/vpn/password manager: [Proton](https://proton.me/)
+  * Private messaging: [Signal](https://signal.org/)
+  * Multi-factor authentication: [YubiKey](https://www.yubico.com/)
+  * Writing papers: [Overleaf](https://www.overleaf.com/)
+  * Creating figures: [Inkscape](https://inkscape.org/)
+  * Paper organizer: [Zotero](https://www.zotero.org/)
+  * Download video/audio: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+  * Genealogy: [gramps](https://gramps-project.org/blog/)
+  * Tor: [Tor Browser](https://www.torproject.org/)
 
 ## Software Development
 
@@ -32,23 +32,23 @@ Modified: 2024-11-11
 ## Analysis Tools
 
 * Dynamic analysis:
-    * Automated Sandbox: [CAPEv2](https://github.com/kevoreilly/CAPEv2)
-    * Honeypot: [cowrie](https://github.com/cowrie/cowrie)
-    * Debugging on Windows: [x64dbg](https://github.com/x64dbg/x64dbg)
-    * Debugging on GNU/Linux: [gdb](https://www.sourceware.org/gdb/)
-    * Network traffic collection & analysis: [Wireshark](https://www.wireshark.org/)
-    * Memory forensics: [Volatility](https://github.com/volatilityfoundation/volatility3)
+  * Automated Sandbox: [CAPEv2](https://github.com/kevoreilly/CAPEv2)
+  * Honeypot: [cowrie](https://github.com/cowrie/cowrie)
+  * Debugging on Windows: [x64dbg](https://github.com/x64dbg/x64dbg)
+  * Debugging on GNU/Linux: [gdb](https://www.sourceware.org/gdb/)
+  * Network traffic collection & analysis: [Wireshark](https://www.wireshark.org/)
+  * Memory forensics: [Volatility](https://github.com/volatilityfoundation/volatility3)
 
 * Static analysis:
-    * Unpacking: [unipacker](https://github.com/unipacker/unipacker)
-    * Disassembling & Decompiling: [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
+  * Unpacking: [unipacker](https://github.com/unipacker/unipacker)
+  * Disassembling & Decompiling: [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
 ## LLM Tools
 
 * Interacting with LLMs locally: [AnythingLLM](https://anythingllm.com/)
 * Implementing LLM-based solutions:
-    * [LangFuse](https://langfuse.com/)
-    * [LangChain](https://www.langchain.com/)
+  * [LangFuse](https://langfuse.com/)
+  * [LangChain](https://www.langchain.com/)
 
 ## Skills Development
 

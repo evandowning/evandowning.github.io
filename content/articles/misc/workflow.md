@@ -1,6 +1,6 @@
 Title: Workflow
 Date: 2024-11-11
-Modified: 2024-11-13
+Modified: 2025-06-26
 
 ## Introduction
 
@@ -8,7 +8,8 @@ This post discusses my daily workflow. I am sharing it in case it is helpful for
 
 ## Starting the day
 
-* Read emails and Slack messages. Respond to everything.
+* Read unread emails and unread Slack messages. Respond to everything.
+* Check personal goals and their progress for the year.
 
 ## Gutcheck work
 
@@ -58,14 +59,28 @@ This post discusses my daily workflow. I am sharing it in case it is helpful for
     * Insights for each update -- What did I learn? What is novel/interesting?
     * Next steps -- From what I learned last week, what will I do this week?
 * If you are away on leave, assign someone to lead in your place, and notify the client who the lead contact will be until you get back.
-* Overbill on the front end of a project, so you can get far enough along that you can divert your attention if needed (e.g., a proposal needs your attention or you have meetings/trainings/other responsibilities to take care of later).
+* Overspend on the front end of a project, so you can get far enough along that you can divert your attention if needed (e.g., a proposal needs your attention or you have meetings/trainings/other responsibilities to take care of later).
 * Every time there is a problem or something does not go according to plan, ask the Five Whys (from The Lean Startup book). Ask "why" 5 times, and you will usually identify the root cause of an issue. Fix the fifth (final) "why" first, then fix the other "whys" if they pop up again. Blame the problem, not the person. If someone makes a mistake, it is our fault it was easy for them to make that mistake.
 
 ## End of the day
 
-* Leave at least 30 minutes at the end of the workday to [read](http://www.evandowning.com/suggested-reads.html) blog posts and mailing lists.
+* Work on the draft of academic paper or client report
+  * This is an up-to-date version of the final draft. The weekly meetings serve as snapshots of the final draft, so you can track the evolution of the project.
+  * The story for the project (motivation)
+  * Outline the evaluation (how you will measure success)
+  * Fill in results as you get them each day (if you were successful)
+  * Working on the final draft of the paper or report helps you not leave things until the last minute
+  * Save filling in the rest (introduction, related works, discussion) until the week before you submit
+  * Two days before the deadline, every co-author should have read the final draft and made comments/edits
+* Leave at least 30 minutes at the end of the workday to [read](http://www.evandowning.com/suggested-reads.html) blog posts, papers, and saved Slack messages.
 
 ## Fridays
 
-* [Read](http://www.evandowning.com/suggested-reads.htm) academic papers.
-* Do various trainings and plan lunch-and-learns.
+* [Read](http://www.evandowning.com/suggested-reads.html) academic papers.
+* Do various trainings and plan lunch-and-learn presentations.
+
+## Retrospective
+
+* After each project is finished, do a retrospective for lessons learned.
+  * What went right? Why did it go right?
+  * What went wrong? Why did it go wrong? What will we do to prevent this in the future?

@@ -11,12 +11,49 @@ Title: Projects
     * [Things I Use](https://www.evandowning.com/things-i-use.html)
     * [Workflow](https://www.evandowning.com/workflow.html)
 
-#### Buttercup - 2024
+#### UPGRADE - 2025
 
-* Created contextualizer component for Trail of Bits' AIxCC Cyber Reasoning System (CRS) entry Buttercup.
-* **Website**:
-    * <https://aicyberchallenge.com/>
-    * [Trail of Bits blogs](https://blog.trailofbits.com/category/aixcc/)
+* Is Co-PI on a proposal for UPGRADE.
+* **Links**:
+    * <https://arpa-h.gov/>
+    * <https://arpa-h.gov/explore-funding/programs/upgrade>
+
+#### AIBOM - 2025
+
+* Helping contribute to Model Inspector, which detects AI/ML model weaknesses via bill-of-materials based analysis.
+* **Links**:
+    * <https://xtech.army.mil/competition/xtechscalableai2/>
+    * [Blog Post](https://blog.trailofbits.com/2024/02/28/our-response-to-the-us-armys-rfi-on-developing-aibom-tools-2/)
+* **Repositories**:
+    * <https://github.com/trailofbits/it-depends>
+    * <https://github.com/trailofbits/datasig>
+* **Techniques**: Python
+
+#### OpenSearch Benchmarking - 2024-2025
+
+* Led a team which created automated infrastructure to run OpenSearch Benchmarks on OpenSearch and Elasticsearch.
+* Continuing to expand support for other search engines like Milvus, Vespa, and Pinecone.
+* **Links**:
+    * [OpenSearch Benchmarks](https://github.com/opensearch-project/opensearch-benchmark)
+    * [OpenSearch](https://github.com/opensearch-project/OpenSearch)
+    * [Elasticsearch](https://github.com/elastic/elasticsearch)
+    * [Milvus](https://github.com/milvus-io/milvus)
+    * [Vespa](https://github.com/vespa-engine/vespa)
+    * [Pinecone](https://www.pinecone.io/)
+* **2025**:
+    * [OpenSearchCon Talk](https://opensearchconna2025.sched.com/event/25Gpj/repeatable-benchmarking-an-exploration-of-opensearch-vs-elasticsearch-evan-downing-trail-of-bits)
+* **2024**:
+    * [Blog Post](https://blog.trailofbits.com/2025/03/06/benchmarking-opensearch-and-elasticsearch/)
+    * [Report](https://github.com/trailofbits/publications/blob/master/reports/OpenSearch-Benchmarking.pdf)
+* **Repository**: <https://github.com/trailofbits/opensearch-benchmark>
+* **Techniques**: Python, Terraform, AWS
+
+#### Buttercup - 2024-2025
+
+* Created the contextualization component for Trail of Bits' AIxCC Cyber Reasoning System (CRS) entry Buttercup. Placed 2nd in the DARPA AIxCC Finals.
+* **Website**: <https://aicyberchallenge.com/>
+* **Repository**: <https://github.com/trailofbits/buttercup>
+* **Techniques**: Python, CodeQuery, Tree-sitter
 
 #### VulChecker - 2023
 
@@ -50,7 +87,7 @@ Title: Projects
     * <https://github.com/tiiuae>
     * <https://github.com/evandowning/usb_4_mic_array>
     * <https://github.com/evandowning/Pi-Connect>
-* **Techniques**: Python
+* **Technique**: Python
 
 #### MLSploit (Intel ARSA) - 2017-2019
 

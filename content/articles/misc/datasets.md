@@ -13,4 +13,4 @@ This is a good website for lots of general cybersecurity datasets: <http://www.s
 
 * Static features for PE malware classification: <https://github.com/elastic/ember>
 * Dynamic features for clustering PE malware: <https://github.com/rieck/malheur>
-* Executing samples to collect behaviors: <https://github.com/kevoreilly/CAPEv2>
+* Executing samples to collect dynamic behaviors: <https://github.com/kevoreilly/CAPEv2>

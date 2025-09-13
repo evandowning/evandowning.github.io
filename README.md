@@ -37,7 +37,7 @@ My website
     (website) $ make devserver
     ```
 
-* Push website content to Github
+* Push all content (`master` and `source`) to Github
 
     ```shell
     (website) $ make github

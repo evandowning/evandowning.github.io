@@ -138,48 +138,64 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 
 ## Mailing lists
 
-* <https://devblogs.microsoft.com/oldnewthing/>
-* <https://krebsonsecurity.com/>
-* <https://unit42.paloaltonetworks.com/>
-* <https://cloud.google.com/blog/products/identity-security>
-* <https://machinelearningmastery.com/>
 * <https://www.internetgovernance.org/>
 * <https://www.crossborderdataforum.org/>
-* <https://0x00sec.org/>
-* <https://www.welivesecurity.com/>
-* <https://any.run/cybersecurity-blog/>
-* <https://www.vmray.com/cyber-security-blog/>
-* <https://redcanary.com/blog/>
 
 ## RSS feeds
 
-* <https://exploit.in/>
-* <https://ctftime.org/>
-* <https://www.mandiant.com/>
-* <https://www.microsoft.com/en-us/security/blog/>
-* <https://googleprojectzero.blogspot.com/>
-* <https://signal.org/blog/>
-* <https://blog.virustotal.com/>
-* <https://blogs.vmware.com/security/>
-* <https://blog.trailofbits.com/>
-* <https://reverse.put.as/>
+* <https://boostsecurity.io/blog/rss.xml>
+* <https://ctftime.org/event/list/upcoming/rss/>
+* <https://exploit.in/feed/>
+* <https://www.mandiant.com/resources/blog/rss.xml>
+* <https://www.microsoft.com/en-us/security/blog/feed/>
+* <https://mihai.page/rss.xml>
+* <https://openssf.org/feed/>
+* <https://www.darpa.mil/rss/opportunities.xml>
+* <http://googleprojectzero.blogspot.com/feeds/posts/default>
+* <https://reverse.put.as/index.xml>
+* <https://signal.org/blog/rss.xml>
+* <http://blog.trailofbits.com/feed/>
+* <http://blog.virustotal.com/feeds/posts/default>
+* <https://infosec.exchange/@xbow.rss>
+* <https://nesbitt.io/feed.xml>
+* <https://dustingram.com/atom.xml>
+* <http://blog.yossarian.net/feed.xml>
+* <http://www.miketheman.net/feed/>
+* <https://sethmlarson.dev/feed>
+* <https://some-natalie.dev/feed.xml>
+* <https://devblogs.microsoft.com/oldnewthing/feed>
 
 ## Books
 
-* Practical Malware Analysis (Sikorski and Honig)
-* Linkers & Loaders (Levine)
-* Rootkits (Butler and Hoglund)
-* Machine Learning (Mitchell)
-* Deep Learning with Python (Chollet)
-* Introduction to Modern Cryptography (Katz and Lindell)
-* Computer Networking (Kurose and Ross)
+### Computer Science
+
 * Introduction to the Theory of Computation (Sipser)
 * Compilers: Principles, Techniques, and Tools (Aho, Lam, Sethi, Ullman)
+* Computer Networking (Kurose and Ross)
+* Introduction to Modern Cryptography (Katz and Lindell)
 * Qualitative Analysis: Constructing Grounded Theory (Charmaz)
-* The Shellcoder's Handbook: Discovering and Exploiting Security Holes (Anley, Heasman, Linder, Richarte)
-* The Hacker Playbook 3: Practical Guide to Penetration Testing (Kim)
-* Style: Lessons in Clarity and Grace (Colomb)
-* The Lean Startup (Eric Ries)
+* Machine Learning (Mitchell)
+
+## Software Development
+
 * Pro Git (Chacon and Straub)
 * Fluent Python (Ramalho)
+* Deep Learning with Python (Chollet)
+
+### Cybersecurity
+
+* From Day Zero to Zero Day (Lim)
+* [Phrack](https://phrack.org/)
+* The Shellcoder's Handbook: Discovering and Exploiting Security Holes (Anley, Heasman, Linder, Richarte)
+* The Hacker Playbook 3: Practical Guide to Penetration Testing (Kim)
+* Linkers & Loaders (Levine)
+* Rootkits (Butler and Hoglund)
+* [Trail of Bits Testing Handbook](https://appsec.guide/)
+* Practical Malware Analysis (Sikorski and Honig)
+
+### Other
+
+* Style: Lessons in Clarity and Grace (Colomb)
+* The Lean Startup (Eric Ries)
+* How to Win Friends and Influence People (Carnegie)
 * Mini Farming: Self-Sufficiency on 1/4 Acre (Brett Markham)

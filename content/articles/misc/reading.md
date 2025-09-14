@@ -9,6 +9,7 @@ Modified: 2024-12-09
 * [Writing a Problem Statement](https://syedirfanhyder.blogspot.com/2017/08/what-is-problem-statement-and-its-role-in-phd-research.html)
 * [Writing a Thesis Statement](https://syedirfanhyder.blogspot.com/2017/08/what-is-thesis-statement-how-to-write.html)
 * [Research as a Stochastic Decision Process](https://docs.google.com/document/d/1KCSXYmInnBrOnFw5y3kQdNluLTYKt-jF1psyviNAeag/)
+* [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall)
 
 ## Papers
 
@@ -111,8 +112,9 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 
 ## Talks
 
-* [James Mickens: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?](https://youtu.be/ajGX7odA87k?si=agiPXy8h57wygHAU)
-* [Wenke Lee: Machine Learning and Security: The Good, The Bad, and The Ugly](https://youtu.be/5fC2W3F4968?si=S-rN4w-8dymUlFve)
+* [Binky Pointer Fun](https://www.youtube.com/watch?v=5VnDaHBi8dM)
+* [James Mickens: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?](https://www.youtube.com/watch?v=ajGX7odA87k)
+* [Wenke Lee: Machine Learning and Security: The Good, The Bad, and The Ugly](https://www.youtube.com/watch?v=4zZZHx1YGzk)
 
 ## Blog Posts
 

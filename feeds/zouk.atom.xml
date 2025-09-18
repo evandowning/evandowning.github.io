@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Downing - zouk</title><link href="https://www.evandowning.com/" rel="alternate"></link><link href="https://www.evandowning.com/feeds/zouk.atom.xml" rel="self"></link><id>https://www.evandowning.com/</id><updated>2025-09-13T00:00:00-04:00</updated><subtitle>Cybersecurity Researcher</subtitle><entry><title>My DJ Notes</title><link href="https://www.evandowning.com/my-dj-notes.html" rel="alternate"></link><published>2025-09-13T00:00:00-04:00</published><updated>2025-09-13T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2025-09-13:/my-dj-notes.html</id><summary type="html">&lt;p&gt;This post is about my DJing experience for Brazilian Zouk.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Downing - zouk</title><link href="https://www.evandowning.com/" rel="alternate"/><link href="https://www.evandowning.com/feeds/zouk.atom.xml" rel="self"/><id>https://www.evandowning.com/</id><updated>2025-09-13T00:00:00-04:00</updated><subtitle>Cybersecurity Researcher</subtitle><entry><title>My DJ Notes</title><link href="https://www.evandowning.com/my-dj-notes.html" rel="alternate"/><published>2025-09-13T00:00:00-04:00</published><updated>2025-09-13T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2025-09-13:/my-dj-notes.html</id><summary type="html">&lt;p&gt;This post is about my DJing experience for Brazilian Zouk.&lt;/p&gt;
 &lt;h2&gt;Equipment&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Laptop&lt;ul&gt;
@@ -106,4 +106,4 @@
 &lt;h2&gt;The Camelot Wheel&lt;/h2&gt;
 &lt;p align="center"&gt;
   &lt;img src="/images/zouk/camelot.webp"&gt;
-&lt;/p&gt;</content><category term="zouk"></category></entry></feed>
+&lt;/p&gt;</content><category term="zouk"/></entry></feed>

@@ -10,6 +10,7 @@ Modified: 2024-12-09
 * [Writing a Thesis Statement](https://syedirfanhyder.blogspot.com/2017/08/what-is-thesis-statement-how-to-write.html)
 * [Research as a Stochastic Decision Process](https://docs.google.com/document/d/1KCSXYmInnBrOnFw5y3kQdNluLTYKt-jF1psyviNAeag/)
 * [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall)
+* [Fallacies](https://en.wikipedia.org/wiki/List_of_fallacies)
 
 ## Papers
 

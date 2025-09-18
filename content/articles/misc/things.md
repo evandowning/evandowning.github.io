@@ -5,7 +5,7 @@ Modified: 2025-01-13
 ## Personal
 
 * Web browser: [Brave Browser](https://brave.com/)
-* Private email/calendar/drive/vpn/password manager: [Proton](https://proton.me/)
+* Email/Calendar/Drive/VPN/Password manager: [Proton](https://proton.me/)
 * Private messaging: [Signal](https://signal.org/)
 * Multi-factor authentication: [YubiKey](https://www.yubico.com/)
 * Transcriber: [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)

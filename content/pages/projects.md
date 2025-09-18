@@ -3,9 +3,8 @@ Title: Projects
 #### Blogs
 
 * All Blogs
-    * Click "categories" at the top of this page.
+    * Click `categories` at the top of this page.
 * Selected Blogs
-    * [Usable Malware](https://www.evandowning.com/tag/usable-malware.html)
     * [Suggested Reads](https://www.evandowning.com/suggested-reads.html)
     * [Datasets](https://www.evandowning.com/datasets.html)
     * [Things I Use](https://www.evandowning.com/things-i-use.html)
@@ -18,9 +17,9 @@ Title: Projects
     * <https://arpa-h.gov/>
     * <https://arpa-h.gov/explore-funding/programs/upgrade>
 
-#### AIBOM - 2025
+#### Model-Inspector - 2025
 
-* Helping contribute to Model Inspector, which detects AI/ML model weaknesses via bill-of-materials based analysis.
+* Helping contribute to Model-Inspector, which detects AI/ML model weaknesses via bill-of-materials based analysis.
 * **Links**:
     * <https://xtech.army.mil/competition/xtechscalableai2/>
     * [Blog Post](https://blog.trailofbits.com/2024/02/28/our-response-to-the-us-armys-rfi-on-developing-aibom-tools-2/)
@@ -51,7 +50,7 @@ Title: Projects
 #### Buttercup - 2024-2025
 
 * Created the contextualization component for Trail of Bits' AIxCC Cyber Reasoning System (CRS) entry Buttercup. Placed 2nd in the DARPA AIxCC Finals.
-* **Website**: <https://aicyberchallenge.com/>
+* **Website**: <https://www.trailofbits.com/buttercup/>
 * **Repository**: <https://github.com/trailofbits/buttercup>
 * **Techniques**: Python, CodeQuery, Tree-sitter
 

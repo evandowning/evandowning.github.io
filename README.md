@@ -43,7 +43,7 @@ My website
     (website) $ make github
     ```
 
-* Commit changes and push to `source` branch
+* Commit changes and push all content to `source` branch
 
 ## Google Analytics
 

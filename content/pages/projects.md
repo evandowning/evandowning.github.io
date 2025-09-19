@@ -31,14 +31,13 @@ Title: Projects
 #### OpenSearch Benchmarking - 2024-2025
 
 * Led a team which created automated infrastructure to run OpenSearch Benchmarks on OpenSearch and Elasticsearch.
-* Continuing to expand support for other search engines like Milvus, Vespa, and Pinecone.
+* Continuing to expand support for other search engines like Milvus and Vespa.
 * **Links**:
     * [OpenSearch Benchmarks](https://github.com/opensearch-project/opensearch-benchmark)
     * [OpenSearch](https://github.com/opensearch-project/OpenSearch)
     * [Elasticsearch](https://github.com/elastic/elasticsearch)
     * [Milvus](https://github.com/milvus-io/milvus)
     * [Vespa](https://github.com/vespa-engine/vespa)
-    * [Pinecone](https://www.pinecone.io/)
 * **2025**:
     * [OpenSearchCon Talk](https://opensearchconna2025.sched.com/event/25Gpj/repeatable-benchmarking-an-exploration-of-opensearch-vs-elasticsearch-evan-downing-trail-of-bits)
 * **2024**:

@@ -102,14 +102,25 @@ You can find all of these on [Google Scholar](https://scholar.google.com/)
 * Humans vs. Machines in Malware Classification (2023)
 * No One Drinks From the Firehose: How Organizations Filter and Prioritize Vulnerability Information (2023)
 
-## Academic cybersecurity conferences
+## Recommended Conferences
+
+### Academic conferences
 
 Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [source2](https://portal.core.edu.au/conf-ranks/?search=security&by=all&source=all&sort=arank&page=1)
 
-  * S&P: <https://www.ieee-security.org/TC/SP-Index.html>
-  * USENIX Security Symposium: <https://www.usenix.org/conferences>
-  * CCS: <https://www.sigsac.org/ccs.html>
-  * NDSS: <https://www.ndss-symposium.org/>
+* S&P: <https://www.ieee-security.org/TC/SP-Index.html>
+* USENIX Security Symposium: <https://www.usenix.org/conferences>
+* CCS: <https://www.sigsac.org/ccs.html>
+* NDSS: <https://www.ndss-symposium.org/>
+
+### Industry conferences
+
+* [Open Source Summit](https://events.linuxfoundation.org/open-source-summit-north-america/)
+    * [OpenSSF Community Day](https://events.linuxfoundation.org/openssf-community-day-north-america/)
+* [Real World Crypto Symposium](https://rwc.iacr.org/)
+    * [High Assurance Cryptographic Summit](https://www.hacs-workshop.org/)
+    * [Open Source Cryptography Workshop](https://opensourcecryptowork.shop/)
+* [PyCon](https://us.pycon.org/)
 
 ## Talks
 

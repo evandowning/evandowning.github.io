@@ -27,8 +27,7 @@ Modified: 2025-01-13
 * IDE: [VS Code](https://code.visualstudio.com/)
 * Text & Hex editor: [vim](https://www.vim.org/)
 * Source code version control: [git](https://git-scm.com/)
-* Python version management: [pyenv](https://github.com/pyenv/pyenv)
-* Python packaging: [uv](https://docs.astral.sh/uv/)
+* Python packaging & version management: [uv](https://docs.astral.sh/uv/)
 * Python code template: [cookiecutter](https://github.com/trailofbits/cookiecutter-python)
 
 ## Analysis Tools

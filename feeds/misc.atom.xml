@@ -151,8 +151,7 @@
 &lt;li&gt;IDE: &lt;a href="https://code.visualstudio.com/"&gt;VS Code&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Text &amp;amp; Hex editor: &lt;a href="https://www.vim.org/"&gt;vim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Source code version control: &lt;a href="https://git-scm.com/"&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Python version management: &lt;a href="https://github.com/pyenv/pyenv"&gt;pyenv&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Python packaging: &lt;a href="https://docs.astral.sh/uv/"&gt;uv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python packaging &amp;amp; version management: &lt;a href="https://docs.astral.sh/uv/"&gt;uv&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Python code template: &lt;a href="https://github.com/trailofbits/cookiecutter-python"&gt;cookiecutter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Analysis Tools&lt;/h2&gt;

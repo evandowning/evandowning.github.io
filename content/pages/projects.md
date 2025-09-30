@@ -50,7 +50,9 @@ Title: Projects
 
 * Created the contextualization component for Trail of Bits' AIxCC Cyber Reasoning System (CRS) entry Buttercup. Placed 2nd in the DARPA AIxCC Finals.
 * **Website**: <https://www.trailofbits.com/buttercup/>
-* **Repository**: <https://github.com/trailofbits/buttercup>
+* **Repositores**:
+    * <https://github.com/trailofbits/buttercup>
+    * <https://github.com/trail-of-forks/buttercup-cscope>
 * **Techniques**: Python, CodeQuery, Tree-sitter
 
 #### VulChecker - 2023

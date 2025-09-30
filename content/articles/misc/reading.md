@@ -11,6 +11,7 @@ Modified: 2024-12-09
 * [Research as a Stochastic Decision Process](https://docs.google.com/document/d/1KCSXYmInnBrOnFw5y3kQdNluLTYKt-jF1psyviNAeag/)
 * [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall)
 * [Fallacies](https://en.wikipedia.org/wiki/List_of_fallacies)
+* [Undecidability](https://en.wikipedia.org/wiki/Undecidable_problem)
 
 ## Papers
 
@@ -210,6 +211,7 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 ### Other
 
 * Style: Lessons in Clarity and Grace (Colomb)
+* The Intelligent Asset Allocator (Bernstein))
 * The Lean Startup (Eric Ries)
 * How to Win Friends and Influence People (Carnegie)
 * Mini Farming: Self-Sufficiency on 1/4 Acre (Brett Markham)

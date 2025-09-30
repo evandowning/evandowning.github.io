@@ -67,6 +67,4 @@ Modified: 2025-01-13
 * Linux Hacking: [pwnable](https://pwnable.kr/)
 * System Design: [course](https://www.designgurus.io/course-play/grokking-the-system-design-interview)
 * Operating System Engineering: [xv6](https://github.com/mit-pdos/xv6-riscv) and [course](https://pdos.csail.mit.edu/6.1810)
-* Writing: "Style: Lessons in Clarity and Grace" by William Colomb
-* LinkedIn Learning: [courses](https://www.linkedin.com/learning)
 * Presenting Data and Information by Edward Tufte: [course](https://www.edwardtufte.com/online-course/)

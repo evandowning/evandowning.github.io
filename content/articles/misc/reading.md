@@ -191,7 +191,7 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 * Qualitative Analysis: Constructing Grounded Theory (Charmaz)
 * Machine Learning (Mitchell)
 
-## Software Development
+### Software Development
 
 * Pro Git (Chacon and Straub)
 * Fluent Python (Ramalho)
@@ -211,7 +211,7 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 ### Other
 
 * Style: Lessons in Clarity and Grace (Colomb)
-* The Intelligent Asset Allocator (Bernstein))
+* The Intelligent Asset Allocator (Bernstein)
 * The Lean Startup (Eric Ries)
 * How to Win Friends and Influence People (Carnegie)
 * Mini Farming: Self-Sufficiency on 1/4 Acre (Brett Markham)

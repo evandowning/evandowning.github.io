@@ -341,8 +341,6 @@ The sole purpose is to facilitate an easy way for a researcher to test their sol
 &lt;li&gt;Linux Hacking: &lt;a href="https://pwnable.kr/"&gt;pwnable&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;System Design: &lt;a href="https://www.designgurus.io/course-play/grokking-the-system-design-interview"&gt;course&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Operating System Engineering: &lt;a href="https://github.com/mit-pdos/xv6-riscv"&gt;xv6&lt;/a&gt; and &lt;a href="https://pdos.csail.mit.edu/6.1810"&gt;course&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Writing: "Style: Lessons in Clarity and Grace" by William Colomb&lt;/li&gt;
-&lt;li&gt;LinkedIn Learning: &lt;a href="https://www.linkedin.com/learning"&gt;courses&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Presenting Data and Information by Edward Tufte: &lt;a href="https://www.edwardtufte.com/online-course/"&gt;course&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="misc"/></entry><entry><title>Benchmarking Neo4j</title><link href="https://www.evandowning.com/benchmarking-neo4j.html" rel="alternate"/><published>2019-05-19T00:00:00-04:00</published><updated>2019-05-19T00:00:00-04:00</updated><author><name>Evan Downing</name></author><id>tag:www.evandowning.com,2019-05-19:/benchmarking-neo4j.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://neo4j.com/"&gt;Neo4j&lt;/a&gt; is a graph database implementation. It's used for creating large graphs to efficiently create and query various relationships. For an explanation on the differences between graph databases and relational database (like &lt;a href="https://www.mysql.com/"&gt;MySQL&lt;/a&gt; and &lt;a href="https://www.postgresql.org/"&gt;PostgreSQL&lt;/a&gt;), see &lt;a href="https://neo4j.com/developer/graph-db-vs-rdbms/"&gt;https://neo4j.com/developer/graph-db-vs-rdbms/&lt;/a&gt;.&lt;/p&gt;
@@ -460,11 +458,12 @@ to create a 30 million node graph in minutes &lt;a href="https://neo4j.com/blog/
 &lt;li&gt;&lt;a href="https://docs.google.com/document/d/1KCSXYmInnBrOnFw5y3kQdNluLTYKt-jF1psyviNAeag/"&gt;Research as a Stochastic Decision Process&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Precision_and_recall"&gt;Precision and Recall&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/List_of_fallacies"&gt;Fallacies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Undecidable_problem"&gt;Undecidability&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Papers&lt;/h2&gt;
 &lt;p&gt;You can find all of these on &lt;a href="https://scholar.google.com/"&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Computer security threat …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Read these first&lt;/h2&gt;
+&lt;li&gt;Computer security …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Read these first&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://dl.acm.org/doi/pdf/10.1145/1273445.1273458"&gt;How to read a paper (2007)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.usenix.org/conferences/author-resources/how-and-how-not-write-good-systems-paper"&gt;How (and how not) to write a good systems paper&lt;/a&gt;&lt;/li&gt;
@@ -473,6 +472,7 @@ to create a 30 million node graph in minutes &lt;a href="https://neo4j.com/blog/
 &lt;li&gt;&lt;a href="https://docs.google.com/document/d/1KCSXYmInnBrOnFw5y3kQdNluLTYKt-jF1psyviNAeag/"&gt;Research as a Stochastic Decision Process&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Precision_and_recall"&gt;Precision and Recall&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/List_of_fallacies"&gt;Fallacies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Undecidable_problem"&gt;Undecidability&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Papers&lt;/h2&gt;
 &lt;p&gt;You can find all of these on &lt;a href="https://scholar.google.com/"&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;
@@ -671,6 +671,7 @@ to create a 30 million node graph in minutes &lt;a href="https://neo4j.com/blog/
 &lt;h3&gt;Other&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Style: Lessons in Clarity and Grace (Colomb)&lt;/li&gt;
+&lt;li&gt;The Intelligent Asset Allocator (Bernstein))&lt;/li&gt;
 &lt;li&gt;The Lean Startup (Eric Ries)&lt;/li&gt;
 &lt;li&gt;How to Win Friends and Influence People (Carnegie)&lt;/li&gt;
 &lt;li&gt;Mini Farming: Self-Sufficiency on 1/4 Acre (Brett Markham)&lt;/li&gt;

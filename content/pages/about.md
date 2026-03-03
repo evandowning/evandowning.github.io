@@ -1,10 +1,6 @@
 Title: About
 
-Evan Downing is a researcher whose interests lie at the intersection of cybersecurity and machine learning.
-
-His goal is to build tools that security analysts want to use every day.
-
-Recently, he helped Trail of Bits build [Buttercup](https://www.trailofbits.com/buttercup/) which won second place in the DARPA AIxCC Finals, and led a team to [benchmark](https://blog.trailofbits.com/2025/03/06/benchmarking-opensearch-and-elasticsearch/) OpenSearch and Elasticsearch.
+Evan Downing is a researcher whose interests lie at the intersection of cybersecurity and machine learning. His goal is to build tools that security analysts want to use every day. Recently, he helped Trail of Bits build [Buttercup](https://www.trailofbits.com/buttercup/) which won second place in the DARPA AIxCC Finals. His work continues with [DO NO HARM](https://arpa-h.gov/explore-funding/programs/upgrade) (which aims to secure aging hospital medical devices with minimal effort and disruption) and [Model Inspector](https://xtech.army.mil/competition/xtechscalableai2/) (which aims to create an AI bill-of-materials).
 
 His Erdős number is 4: Evan Downing -> Wenke Lee -> Richard Lipton -> Noga Alon -> Paul Erdős
 

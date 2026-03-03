@@ -53,7 +53,7 @@ SOCIAL = (
     ("github", "https://github.com/evandowning"),
     ("google", "https://scholar.google.com/citations?user=SnJNwIAAAAAJ&hl=en"),
     ("linkedin", "https://www.linkedin.com/in/evandowning/"),
-    ("mixcloud", "https://www.mixcloud.com/evandowning/"),
+    ("soundcloud", "https://soundcloud.com/evan_downing"),
 )
 
 MENUITEMS = (

@@ -10,16 +10,18 @@ Title: Projects
     * [Things I Use](https://www.evandowning.com/things-i-use.html)
     * [Workflow](https://www.evandowning.com/workflow.html)
 
-#### UPGRADE - 2025
+#### DO NO HARM and VulChecker - 2025-present
 
-* Is Co-PI on a proposal for UPGRADE.
+* Is Co-PI on the DO NO HARM proposal, and subcontractor for HRL's MINDSET proposal for UPGRADE.
 * **Links**:
     * <https://arpa-h.gov/>
     * <https://arpa-h.gov/explore-funding/programs/upgrade>
+* **Repositories**: TBD
+* **Techniques**: Python
 
-#### Model-Inspector - 2025
+#### Model Inspector - 2025-present
 
-* Helping contribute to Model-Inspector, which detects AI/ML model weaknesses via bill-of-materials based analysis.
+* Helping contribute to Model Inspector, which detects AI/ML model weaknesses via bill-of-materials based analysis.
 * **Links**:
     * <https://xtech.army.mil/competition/xtechscalableai2/>
     * [Blog Post](https://blog.trailofbits.com/2024/02/28/our-response-to-the-us-armys-rfi-on-developing-aibom-tools-2/)
@@ -31,7 +33,7 @@ Title: Projects
 #### OpenSearch Benchmarking - 2024-2025
 
 * Led a team which created automated infrastructure to run OpenSearch Benchmarks on OpenSearch and Elasticsearch.
-* Continuing to expand support for other search engines like Milvus and Vespa.
+* Future work is to expand support for other search engines like Milvus and Vespa.
 * **Links**:
     * [OpenSearch Benchmarks](https://github.com/opensearch-project/opensearch-benchmark)
     * [OpenSearch](https://github.com/opensearch-project/OpenSearch)

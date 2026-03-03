@@ -1,6 +1,6 @@
 Title: Workflow
 Date: 2024-11-11
-Modified: 2025-09-16
+Modified: 2025-10-28
 
 ## Introduction
 
@@ -8,17 +8,12 @@ This post discusses my workflows. I am sharing it in case it is helpful for othe
 
 ## Every Day
 
-### Administrative [2 hours]
+### Administrative
 
 * Read unread emails and unread Slack messages. Respond to everything.
 * Check personal goals and their progress for the year.
-* [Read](http://www.evandowning.com/suggested-reads.html) academic papers and blog posts. For papers, create a summary:
-    * Problem
-    * Existing approaches and their limitations
-    * Approach
-    * Evaluation
 
-### Gutcheck Projects [1 hour]
+### Gutcheck Projects
 
 * Review each project's motivation, goals, "secret sauce", current status, and timeline to finish. Do they make sense?
 * [Heilmeier Catechism](https://www.darpa.mil/work-with-us/heilmeier-catechism)
@@ -38,19 +33,28 @@ This post discusses my workflows. I am sharing it in case it is helpful for othe
     * How do you implement it? Why is that a good and practical way?
     * How do you evaluate your approach and system? Why is the evaluation fair and realistic? How do the results support the goals and claims of your approach and system?
 
-### Coding [5 hours]
+### [Read](http://www.evandowning.com/suggested-reads.html) academic papers and blog posts
 
+* For papers, create a summary:
+    * Problem
+    * Existing approaches and their limitations
+    * Approach
+    * Evaluation
+
+### Coding
+
+* Review Pull Requests.
 * Work on code for each project.
-* Automate linting and unit tests via [Github actions](https://github.com/features/actions).
+* Automate linting and tests via [Github actions](https://github.com/features/actions).
 
 ## Fridays
 
-### Start of Day [3 hours]
+### Start of Day
 
 * Administrative
 * Gutcheck Projects
 
-### Write [5 hours]
+### Write
 
 * Brainstorm research ideas
     * Focus on defining the problem. If you define the problem well enough, the solution will become clear.
@@ -63,10 +67,26 @@ This post discusses my workflows. I am sharing it in case it is helpful for othe
     * Save filling in the rest (introduction, related works, discussion) until the week before you submit
     * Two days before the deadline, every co-author should have read the final draft and made comments/edits
 
+## Starting a New Project
+
+* Create a Google Drive of Documents and Slides:
+    * Related Works (Folder containing PDFs of papers referenced in `Background`)
+    * Background (Doc which lists and summarizes related works and existing solutions)
+    * Brainstorming (Doc containing ideas I have)
+    * Meetings (Doc of meeting minutes of me presenting the idea to others)
+    * Overview (Doc of Heilmeier Catechism for planning, Ongoing Summary for up-to-date status of project. See [Gutcheck Projects](#gutcheck-projects))
+    * Slides (Presentation during meetings with status updates)
+* Go Fast!
+    * To start, search (Google Scholar)[https://scholar.google.com/] and (Scholar Labs)[https://scholar.google.com/scholar_labs/search] for existing works in top-tier conferences. Put these in your `Related Works` folder -- just download, drag, and drop.
+    * Use [NotebookLM](https://notebooklm.google/). Add your `Background`, `Brainstorming`, and `Overview` Docs as well as all papers in `Related Works/` Ask it research questions, brainstorm ideas, list experiments to perform (and in what order, such that each tells you the most information about what to do next), etc.
+* Go Slow!
+    * Read through claims from LLMs about novel research directions and summaries of prior works. Fact check everything. Carefully craft your research direction and list of experiments to perform.
+    * Create rapid software prototypes and measurements against the state-of-the-art. Ask NotebookLM to craft prompts to give to LLMs to quickly develop these prototypes -- double-check each implementation carefully.
+
 ## Writing Proposals
 
   1. Create an overview diagram of what the system will look like. What happens first, second, third, etc. in the pipeline. What is the input? What is the output?
-  1. Write & submit an abstract describing the solution.
+  1. Write & submit an abstract describing the solution. What is the goal? What are the constraints? What is the approach? What are the expected results?
   1. Fill in the front and back matter on the proposal. Now you know how many pages you have to work with to write the technical content.
   1. Create a real-world motivating example (1-2 paragraphs) you will use throughout the proposal.
     * This is a framing device to go back and talk about how the solution will handle each challenge in the motivating example.

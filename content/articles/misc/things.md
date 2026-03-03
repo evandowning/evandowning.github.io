@@ -1,6 +1,6 @@
 Title: Things I Use
 Date: 2021-01-01
-Modified: 2025-01-13
+Modified: 2026-03-01
 
 ## Personal
 
@@ -22,13 +22,15 @@ Modified: 2025-01-13
 
 ## Software Development
 
-* Project management: [asana](https://asana.com/)
 * Time tracking: [toggl](https://toggl.com/)
+* Bootstrapping & Dotfiles: [yadm](https://yadm.io/)
 * IDE: [VS Code](https://code.visualstudio.com/)
 * Text & Hex editor: [vim](https://www.vim.org/)
 * Source code version control: [git](https://git-scm.com/)
+* Project development, CI/CD: [github](https://github.com/)
 * Python packaging & version management: [uv](https://docs.astral.sh/uv/)
 * Python code template: [cookiecutter](https://github.com/trailofbits/cookiecutter-python)
+* Configuring Claude Code: [claude-code-config](https://github.com/trailofbits/claude-code-config)
 
 ## Analysis Tools
 
@@ -39,8 +41,6 @@ Modified: 2025-01-13
     * Debugging on GNU/Linux: [gdb](https://www.sourceware.org/gdb/) with ([gdbinit](https://github.com/evandowning/Gdbinit/tree/develop))
     * Network traffic collection & analysis: [Wireshark](https://www.wireshark.org/)
     * Fuzzing:
-        * Infrastructure: [ClusterFuzz](https://google.github.io/clusterfuzz/)
-        * C/C++ with clang: [libFuzzer](https://llvm.org/docs/LibFuzzer.html)
         * C++: [fuzztest](https://github.com/google/fuzztest)
         * Java: [jazzer](https://github.com/CodeIntelligenceTesting/jazzer)
         * Python: [atheris](https://github.com/google/atheris)

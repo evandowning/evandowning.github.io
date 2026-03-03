@@ -102,6 +102,7 @@ You can find all of these on [Google Scholar](https://scholar.google.com/)
 * Everybody’s Got ML, Tell Me What Else You Have: Practitioners' Perception of ML-Based Security Tools and Explanations (2023)
 * Humans vs. Machines in Malware Classification (2023)
 * No One Drinks From the Firehose: How Organizations Filter and Prioritize Vulnerability Information (2023)
+* The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections (2025)
 
 ## Recommended Conferences
 
@@ -118,9 +119,6 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 
 * [Open Source Summit](https://events.linuxfoundation.org/open-source-summit-north-america/)
     * [OpenSSF Community Day](https://events.linuxfoundation.org/openssf-community-day-north-america/)
-* [Real World Crypto Symposium](https://rwc.iacr.org/)
-    * [High Assurance Cryptographic Summit](https://www.hacs-workshop.org/)
-    * [Open Source Cryptography Workshop](https://opensourcecryptowork.shop/)
 * [PyCon](https://us.pycon.org/)
 
 ## Talks
@@ -136,6 +134,7 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 * [What is the Difference Between Test and Validation Datasets?](https://machinelearningmastery.com/difference-test-validation-datasets/)
 * [A Gentle Introduction to k-fold Cross-Validation](https://machinelearningmastery.com/k-fold-cross-validation/)
 * [How to Configure k-Fold Cross-Validation](https://machinelearningmastery.com/how-to-configure-k-fold-cross-validation/)
+* [How I Use AI](https://nicholas.carlini.com/writing/2024/how-i-use-ai.html)
 
 ### Machine Learning for Security
 

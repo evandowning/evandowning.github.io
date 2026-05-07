@@ -9,12 +9,12 @@ Modified: 2026-03-01
 * Private messaging: [Signal](https://signal.org/)
 * Multi-factor authentication: [YubiKey](https://www.yubico.com/)
 * Transcriber: [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
-* Creating demos: [OSB Studio](https://obsproject.com/)
+* Creating screen demos: [OSB Studio](https://obsproject.com/)
+* Creating terminal demos: [asciinema](https://asciinema.org/)
 * Writing papers: [Overleaf](https://www.overleaf.com/)
 * Writing assistant: [Grammarly](https://www.grammarly.com/)
 * Creating figures: [Inkscape](https://inkscape.org/)
-* Paper organizer: [Zotero](https://www.zotero.org/)
-* Feed reader: [Feedly](https://feedly.com/)
+* Paper organizer & RSS feed reader: [Zotero](https://www.zotero.org/)
 * Time shifting: [Timeshifter](https://www.timeshifter.com/)
 * Download video/audio: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 * Genealogy: [gramps](https://gramps-project.org/blog/)
@@ -31,6 +31,7 @@ Modified: 2026-03-01
 * Python packaging & version management: [uv](https://docs.astral.sh/uv/)
 * Python code template: [cookiecutter](https://github.com/trailofbits/cookiecutter-python)
 * Configuring Claude Code: [claude-code-config](https://github.com/trailofbits/claude-code-config)
+* [Compiler Explorer](https://github.com/compiler-explorer/compiler-explorer)
 
 ## Analysis Tools
 
@@ -57,14 +58,15 @@ Modified: 2026-03-01
 
 * Interacting with LLMs locally: [AnythingLLM](https://anythingllm.com/)
 * Implementing LLM-based solutions:
+    * [Pydantic AI](https://ai.pydantic.dev/)
+    * [LiteLLM](https://www.litellm.ai/)
     * [LangFuse](https://langfuse.com/)
-    * [LangChain](https://www.langchain.com/)
 
 ## Ongoing Skills Development
 
 * Programming: [leetcode](https://leetcode.com/)
 * Reverse engineering Windows binaries: [flare-on](https://flare-on.com/)
 * Linux Hacking: [pwnable](https://pwnable.kr/)
-* System Design: [course](https://www.designgurus.io/course-play/grokking-the-system-design-interview)
+* System Design: [course](https://www.designgurus.io/course/grokking-the-system-design-interview)
 * Operating System Engineering: [xv6](https://github.com/mit-pdos/xv6-riscv) and [course](https://pdos.csail.mit.edu/6.1810)
 * Presenting Data and Information by Edward Tufte: [course](https://www.edwardtufte.com/online-course/)

@@ -12,16 +12,18 @@ Title: Projects
 
 #### DO NO HARM and VulChecker - 2025-present
 
-* Is Co-PI on the DO NO HARM proposal, and subcontractor for HRL's MINDSET proposal for UPGRADE.
+* Principal Investigator on DO NO HARM (a system to remediate vulnerabilities in medical devices), and subcontractor for HRL's MINDSET (a system to identify vulnerabilities in medical devices).
+* Extended VulChecker to identify a wide variety of CWEs in firmware binaries.
 * **Links**:
-    * <https://arpa-h.gov/>
     * <https://arpa-h.gov/explore-funding/programs/upgrade>
+    * <https://arpa-h.gov/explore-funding/awards/3546>
 * **Repositories**: TBD
 * **Techniques**: Python
 
-#### Model Inspector - 2025-present
+#### Model Inspector - 2025-2026
 
-* Helping contribute to Model Inspector, which detects AI/ML model weaknesses via bill-of-materials based analysis.
+* Technical leader on Model-Inspector, a system to generate bills-of-material and audit AI/ML models for security weaknesses.
+* Designed and implemented the auditing database, which detects existing AI/ML model and dataset weaknesses.
 * **Links**:
     * <https://xtech.army.mil/competition/xtechscalableai2/>
     * [Blog Post](https://blog.trailofbits.com/2024/02/28/our-response-to-the-us-armys-rfi-on-developing-aibom-tools-2/)

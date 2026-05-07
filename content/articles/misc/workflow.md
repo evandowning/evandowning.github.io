@@ -6,7 +6,7 @@ Modified: 2025-10-28
 
 This post discusses my workflows. I am sharing it in case it is helpful for others to read.
 
-## Every Day
+## Monday - Thursday
 
 ### Administrative
 
@@ -47,7 +47,7 @@ This post discusses my workflows. I am sharing it in case it is helpful for othe
 * Work on code for each project.
 * Automate linting and tests via [Github actions](https://github.com/features/actions).
 
-## Fridays
+## Friday
 
 ### Start of Day
 
@@ -77,7 +77,7 @@ This post discusses my workflows. I am sharing it in case it is helpful for othe
     * Overview (Doc of Heilmeier Catechism for planning, Ongoing Summary for up-to-date status of project. See [Gutcheck Projects](#gutcheck-projects))
     * Slides (Presentation during meetings with status updates)
 * Go Fast!
-    * To start, search (Google Scholar)[https://scholar.google.com/] and (Scholar Labs)[https://scholar.google.com/scholar_labs/search] for existing works in top-tier conferences. Put these in your `Related Works` folder -- just download, drag, and drop.
+    * To start, search [Google Scholar](https://scholar.google.com/) and [Scholar Labs](https://scholar.google.com/scholar_labs/search) for existing works in top-tier conferences. Put these in your `Related Works` folder -- just download, drag, and drop.
     * Use [NotebookLM](https://notebooklm.google/). Add your `Background`, `Brainstorming`, and `Overview` Docs as well as all papers in `Related Works/` Ask it research questions, brainstorm ideas, list experiments to perform (and in what order, such that each tells you the most information about what to do next), etc.
 * Go Slow!
     * Read through claims from LLMs about novel research directions and summaries of prior works. Fact check everything. Carefully craft your research direction and list of experiments to perform.
@@ -91,14 +91,14 @@ This post discusses my workflows. I am sharing it in case it is helpful for othe
   1. Create a real-world motivating example (1-2 paragraphs) you will use throughout the proposal.
     * This is a framing device to go back and talk about how the solution will handle each challenge in the motivating example.
   1. Split the system into components (which should already be apparent by the diagram) and assign engineers to tackle each part.
-  1. Make sure you include the exact metrics the BAA is asking for and say your solution will accomplish them.
+  1. Make sure you include the exact metrics the BAA is asking for and say how your solution will accomplish them.
 
 ## Leadership
 
 * Break each project down into 2 or 3 parts, and assign each person one part to own.
 * For each project, have an end-goal in mind and an end-date. I.e., what specifically do you want to accomplish by when?
 * Everyone self-updates their progress for you to present at status updates, as well as allows you to ask and answer questions there (an internal Google Doc).
-* For each status update, create slides and meeting meetings (shared with the client). Have action items they agree to (ranked by importance) for the next meeting.
+* For each status update, create slides and meeting minutes (shared with the client). Have action items they agree to (ranked by importance) for the next meeting.
 * For each status update presentation, create ~6 slides to share with the client. That way, it is easy for them to track your progress over time.
     * Agenda
     * Running list of Insights and Contributions

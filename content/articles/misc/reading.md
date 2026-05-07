@@ -150,34 +150,35 @@ Tier 1: [source1](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) & [sour
 
 * [I am not a supplier](https://www.softwaremaxims.com/blog/not-a-supplier)
 
-## Mailing lists
-
-* <https://www.internetgovernance.org/>
-* <https://www.crossborderdataforum.org/>
-
 ## RSS feeds
 
-* <https://boostsecurity.io/blog/rss.xml>
-* <https://ctftime.org/event/list/upcoming/rss/>
-* <https://exploit.in/feed/>
-* <https://www.mandiant.com/resources/blog/rss.xml>
-* <https://www.microsoft.com/en-us/security/blog/feed/>
-* <https://mihai.page/rss.xml>
-* <https://openssf.org/feed/>
-* <https://www.darpa.mil/rss/opportunities.xml>
-* <http://googleprojectzero.blogspot.com/feeds/posts/default>
-* <https://reverse.put.as/index.xml>
-* <https://signal.org/blog/rss.xml>
-* <http://blog.trailofbits.com/feed/>
-* <http://blog.virustotal.com/feeds/posts/default>
-* <https://infosec.exchange/@xbow.rss>
 * <https://nesbitt.io/feed.xml>
+* <https://carteryagemann.com/feeds/all.atom.xml>
 * <https://dustingram.com/atom.xml>
-* <http://blog.yossarian.net/feed.xml>
-* <http://www.miketheman.net/feed/>
-* <https://sethmlarson.dev/feed>
+* <https://blog.yossarian.net/feed.xml>
+* <https://exploit.in/feed/>
+* <https://www.internetgovernance.org/feed/>
+* <https://mihai.page/rss.xml>
+* <https://www.miketheman.net/feed/>
+* <https://nicholas.carlini.com/writing/feed.xml>
+* <https://openssf.org/feed/>
+* <https://projectzero.google/feed.xml>
+* <https://reverse.put.as/index.xml>
 * <https://some-natalie.dev/feed.xml>
-* <https://devblogs.microsoft.com/oldnewthing/feed>
+* <https://devblogs.microsoft.com/oldnewthing/feed/>
+* <https://blog.trailofbits.com/index.xml>
+* <https://blog.virustotal.com/feeds/posts/default>
+* <https://infosec.exchange/@xbow.rss>
+
+## Funding Opportunities
+
+* <https://sam.gov/>
+* <https://www.darpa.mil/work-with-us/opportunities>
+* <https://arpa-h.gov/explore-funding/open-funding-opportunities>
+* <https://www.darpa.mil/events>
+* <https://www.defensesbirsttr.mil/SBIR-STTR/Opportunities/>
+* <https://www.navysbir.com/>
+* <https://www.nsf.gov/funding/opportunities>
 
 ## Books
 

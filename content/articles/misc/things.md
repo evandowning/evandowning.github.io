@@ -8,29 +8,29 @@ Modified: 2026-03-01
 * Email/Calendar/Drive/VPN/Password manager: [Proton](https://proton.me/)
 * Private messaging: [Signal](https://signal.org/)
 * Multi-factor authentication: [YubiKey](https://www.yubico.com/)
-* Transcriber: [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
 * Creating screen demos: [OSB Studio](https://obsproject.com/)
 * Creating terminal demos: [asciinema](https://asciinema.org/)
+* Disk Wiping: [ShredOS](https://shredos.org/)
 * Writing papers: [Overleaf](https://www.overleaf.com/)
 * Writing assistant: [Grammarly](https://www.grammarly.com/)
 * Creating figures: [Inkscape](https://inkscape.org/)
 * Paper organizer & RSS feed reader: [Zotero](https://www.zotero.org/)
 * Time shifting: [Timeshifter](https://www.timeshifter.com/)
+* Time tracking: [toggl](https://toggl.com/)
 * Download video/audio: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 * Genealogy: [gramps](https://gramps-project.org/blog/)
-* Tor: [Tor Browser](https://www.torproject.org/)
 
 ## Software Development
 
-* Time tracking: [toggl](https://toggl.com/)
-* Bootstrapping & Dotfiles: [yadm](https://yadm.io/)
-* IDE: [VS Code](https://code.visualstudio.com/)
-* Text & Hex editor: [vim](https://www.vim.org/)
-* Source code version control: [git](https://git-scm.com/)
+* Coding: [coop](https://github.com/trailofbits/coop)
+* Configuring Claude Code: [claude-code-config](https://github.com/trailofbits/claude-code-config)
+* Configuring Codex: [codex-config](https://github.com/trailofbits/codex-config)
+* Version control: [git](https://git-scm.com/)
 * Project development, CI/CD: [github](https://github.com/)
 * Python packaging & version management: [uv](https://docs.astral.sh/uv/)
 * Python code template: [cookiecutter](https://github.com/trailofbits/cookiecutter-python)
-* Configuring Claude Code: [claude-code-config](https://github.com/trailofbits/claude-code-config)
+* Text editor: [vim](https://www.vim.org/)
+* Bootstrapping & Dotfiles: [yadm](https://yadm.io/)
 * [Compiler Explorer](https://github.com/compiler-explorer/compiler-explorer)
 
 ## Analysis Tools
@@ -56,11 +56,9 @@ Modified: 2026-03-01
 
 ## LLM Tools
 
-* Interacting with LLMs locally: [AnythingLLM](https://anythingllm.com/)
-* Implementing LLM-based solutions:
-    * [Pydantic AI](https://ai.pydantic.dev/)
-    * [LiteLLM](https://www.litellm.ai/)
-    * [LangFuse](https://langfuse.com/)
+* [Pydantic AI](https://ai.pydantic.dev/)
+* [LiteLLM](https://www.litellm.ai/)
+* [LangFuse](https://langfuse.com/)
 
 ## Ongoing Skills Development
 
